@@ -9,6 +9,9 @@
         public double Amount { get; set; }
         public string Description { get; set; }
         public string Currency { get; set; }
+        public string MccCode { get; set; } //TODO: Pitaj Nikolu
+        public KindEnum Kind { get; set; }
+
         public string CatCode { get; set; }
         public List<SplitCategory> splits { get; set; }
     }
