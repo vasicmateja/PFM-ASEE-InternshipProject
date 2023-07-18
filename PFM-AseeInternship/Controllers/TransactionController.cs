@@ -15,11 +15,13 @@ namespace PFM_AseeInternship.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetTransactions([FromQuery] string transactionKind, [FromQuery] string? startDate, [FromQuery] string? endDate, [FromQuery] int page = 1, [FromQuery] int pageSize = 10, [FromQuery] string? sortBy = null, [FromQuery] SortOrder sortOrder = SortOrder.asc) 
+        public IActionResult GetTransactions([FromQuery] string transactionKind, [FromQuery] string? startDate, [FromQuery] string? endDate, [FromQuery] int page = 1, [FromQuery] int pageSize = 10, [FromQuery] string? sortBy    = null, [FromQuery] SortOrder sortOrder = SortOrder.asc) 
         {
             return Ok();
         }
+        
 
+        //  TODO: ODRADITI PROSLEDJENE VREDNOSTI
         [HttpPost]
         public IActionResult importTransactions()
         {
