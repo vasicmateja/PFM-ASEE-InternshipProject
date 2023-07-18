@@ -42,14 +42,14 @@ string CreateConnectionString(IConfiguration configuration)
 {
     var username = Environment.GetEnvironmentVariable("DATABASE_USERNAME");
     var password = Environment.GetEnvironmentVariable("DATABASE_PASSWORD");
-    var databaseName = Environment.GetEnvironmentVariable("DATABASE_NAME");
-    var host = Environment.GetEnvironmentVariable("DATABASE_HOST");
-    var port = (int.Parse(Environment.GetEnvironmentVariable("DATABASE_PORT")));
+    var databaseName = Environment.GetEnvironmentVariable("DATABASE_NAME") ?? "transactions";
+    var host = Environment.GetEnvironmentVariable("DATABASE_HOST") ?? "localhost";
+    var port = (Environment.GetEnvironmentVariable("DATABASE_PORT") ?? "5432");
 
     var connBuilder = new NpgsqlConnectionStringBuilder
     {
         Host = host,
-        Port = port,
+        Port = int.Parse(port),
         Username = username,    
         Password = password,
         Database = databaseName,
