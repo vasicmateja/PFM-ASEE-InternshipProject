@@ -1,10 +1,17 @@
 using Microsoft.EntityFrameworkCore;
 using Npgsql;
 using PFM_AseeInternship.DataBase;
+using PFM_AseeInternship.DataBase.Repositories;
+using PFM_AseeInternship.Services;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddScoped<TransactionService, TransactionService>();
+builder.Services.AddScoped<TransactionRepository, TransactionRepository>();
+
+builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
