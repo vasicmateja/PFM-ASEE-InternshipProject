@@ -16,7 +16,12 @@
       "launchUrl": "swagger",
       "applicationUrl": "http://localhost:5006",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DATABASE_USERNAME": "123",
+        "DATABASE_PASSWORD": "123",
+        "DATABASE_NAME": "transactions",
+        "DATABASE_PORT": "5432",
+        "DATABASE_HOST": "localhost"
       }
     },
     "IIS Express": {

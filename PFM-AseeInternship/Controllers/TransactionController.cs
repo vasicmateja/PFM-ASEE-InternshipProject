@@ -22,7 +22,7 @@ namespace PFM_AseeInternship.Controllers
         
 
         //  TODO: ODRADITI PROSLEDJENE VREDNOSTI
-        [HttpPost]
+        [HttpPost("import")]
         public IActionResult importTransactions()
         {
             return Ok();
@@ -40,7 +40,7 @@ namespace PFM_AseeInternship.Controllers
             return Ok();
         }
 
-        [HttpPost]
+        [HttpPost("autoCategorize")]
         public IActionResult autoCategorizeTransactions()
         {
             return Ok();
