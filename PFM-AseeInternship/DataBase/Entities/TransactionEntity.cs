@@ -1,4 +1,5 @@
 ﻿using PFM_AseeInternship.Models;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PFM_AseeInternship.DataBase.Entities
 {
@@ -15,6 +16,7 @@ namespace PFM_AseeInternship.DataBase.Entities
         public KindEnum Kind { get; set; }
 
         public string CatCode { get; set; }
-        public List<SplitCategory> Splits { get; set; }
+
+        //[NotMapped]public List<SplitCategory> Splits { get; set; }
     }
 }

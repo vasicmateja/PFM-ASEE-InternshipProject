@@ -62,5 +62,17 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
 
             };
         }
+
+        public void ImportTransactions()
+        {
+
+            TransactionEntity transaction = new TransactionEntity();
+
+            ///TODO OVDE IMPUT ODRADITI
+           
+            var query = _db.Transactions.Add(transaction);
+
+            
+        }
     }
 }

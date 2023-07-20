@@ -8,5 +8,7 @@ namespace PFM_AseeInternship.DataBase.Repositories
     {
         Task<TransacitonPageSortedList<TransactionEntity>> GetTransactions(string transactionKind, string? startDate, string? endDate, int page = 1
                                                                             , int pageSize = 10, string? sortBy = null, SortOrder sortOrder = SortOrder.asc);
+
+        void ImportTransactions();
     }
 }

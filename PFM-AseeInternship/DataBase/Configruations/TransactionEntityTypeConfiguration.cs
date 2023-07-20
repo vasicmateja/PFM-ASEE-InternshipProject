@@ -10,7 +10,7 @@ namespace PFM_AseeInternship.DataBase.Configruations
 
         public void Configure(EntityTypeBuilder<TransactionEntity> builder)
         {
-           // builder.ToTable("Transactions");
+            builder.ToTable("Transactions");
 
             builder.HasKey(x => x.Id);
 
@@ -27,7 +27,7 @@ namespace PFM_AseeInternship.DataBase.Configruations
             //builder.Property(x => x.Kind).HasConversion<string>.IsRequired();
             builder.Property(x => x.Kind).IsRequired();
             builder.Property(x => x.CatCode);
-            builder.Property(x => x.Splits);
+           // builder.Property(x => x.Splits);
 
 
 

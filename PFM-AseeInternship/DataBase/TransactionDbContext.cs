@@ -11,14 +11,17 @@ namespace PFM_AseeInternship.DataBase
         { 
         }
 
-        protected TransactionDbContext() {}
+        public TransactionDbContext() {}
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
+            //modelBuilder.Entity<TransactionEntity>().Ignore(t => t.Splits);
+            base.OnModelCreating(modelBuilder);
+
             modelBuilder.ApplyConfiguration(
                 new TransactionEntityTypeConfiguration());
-            base.OnModelCreating(modelBuilder);
+            
         }
     }
 }

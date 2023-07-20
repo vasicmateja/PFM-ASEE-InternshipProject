@@ -1,6 +1,9 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using PFM_AseeInternship.DataBase.Repositories;
 using PFM_AseeInternship.Models;
+using System.Globalization;
 
 namespace PFM_AseeInternship.Services.Implementations
 {
@@ -8,14 +11,20 @@ namespace PFM_AseeInternship.Services.Implementations
     {
         TransactionRepository _transactionRepository;
         IMapper _mapper;
+
         public TransactionServiceImplementation(TransactionRepository transactionRepository, IMapper mapper) {
             _transactionRepository = transactionRepository;
             _mapper = mapper;
     }
-        public async Task<TransacitonPageSortedList<Transaction>> GetTransactions(string transactionKind, string? startDate, string? endDate, int page, int pageSize, string? sortBy, SortOrder sortOrder)
+
+        public Task<TransacitonPageSortedList<Transaction>> GetTransactions(string transactionKind, string? startDate, string? endDate, int page = 1, int pageSize = 10, string? sortBy = null, Models.SortOrder sortOrder = Models.SortOrder.asc)
         {
-            var transactions = await _transactionRepository.GetTransactions(transactionKind, startDate, endDate, page, pageSize, sortBy, sortOrder);
-            return _mapper.Map<TransacitonPageSortedList<Transaction>>(transactions);
+            throw new NotImplementedException();
+        }
+
+        public void ImportTransactions()
+        {
+            throw new NotImplementedException();
         }
     }
 }

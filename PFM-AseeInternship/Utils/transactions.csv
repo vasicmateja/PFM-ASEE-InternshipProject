@@ -1,0 +1,1304 @@
+id,beneficiary-name,date,direction,amount,description,currency,mcc,kind
+66229487,Faculty of contemporary arts,1/1/2021,d,187.20,Tuition,USD,8299,pmt
+15122088,Glovo,1/1/2021,d,44.30,Food delivery,USD,5811,pmt
+71233330,Glovo,1/1/2021,d,17.00,Food delivery,USD,5811,pmt
+24419286,Claire Stevens,1/1/2021,c,300.10,Monthly rent,USD,,dep
+31952674,Josh,1/1/2021,d,35.10,Allowance,USD,,pmt
+76053069,Hertz,1/1/2021,d,11.60,Taxi,USD,7519,pmt
+67251535,Book depository,1/2/2021,d,15.60,Amazon Kindle subscription,USD,,pmt
+51023898,Table tenis club PingPong,1/2/2021,d,12.30,Daily pool ticket,USD,5655,pmt
+19088602,Delhaize,1/3/2021,d,33.50,Supermaket shopping,USD,5499,pmt
+46251212,Swimming school,1/3/2021,d,22.00,Membership,USD,,pmt
+38450379,Blue moon spa,1/3/2021,d,22.50,Massage,USD,8050,pmt
+40474619,Adobe,1/3/2021,d,20.10,Games,USD,5045,pmt
+77280316,MetLife,1/4/2021,d,200.90,Life insurance premium,USD,6300,pmt
+62511511,City parkings,1/5/2021,d,2.30,Parking fee,USD,7523,pmt
+18709472,A1 Telecom,1/6/2021,d,6.90,Phone bill,USD,,pmt
+56500502,National Geographic,1/6/2021,d,4.80,National Geographic,USD,5192,pmt
+46134066,Revolut,1/6/2021,d,4.60,ATM withdrawal fee,USD,,fee
+28670410,Wolt,1/6/2021,d,48.40,Food delivery,USD,5811,pmt
+61393516,Dental Plus,1/6/2021,d,20.90,Doctor's appointment,USD,8011,pmt
+31930196,Claire Stevens,1/6/2021,c,300.10,Monthly rent,USD,,dep
+25661064,Swimming school,1/6/2021,d,27.10,Membership,USD,,pmt
+55836439,Faculty of contemporary arts,1/7/2021,d,185.50,Tuition,USD,8299,pmt
+16419247,Lidl,1/7/2021,d,33.10,Supermaket shopping,USD,5499,pmt
+78624056,Lidl,1/7/2021,d,36.80,Supermaket shopping,USD,5499,pmt
+70919477,Claire Stevens,1/7/2021,c,300.10,Monthly rent,USD,,dep
+65912072,Raiffeisen Leasing,1/8/2021,d,450.50,Financial leasing,USD,7394,pmt
+54545537,City parkings,1/8/2021,d,1.50,Parking fee,USD,7523,pmt
+24839524,Pet salon Rex,1/8/2021,d,10.30,Grooming,USD,,pmt
+50559764,A1 Telecom,1/9/2021,d,6.10,Phone bill,USD,,pmt
+66797216,Book depository,1/9/2021,d,126.10,Books,USD,,pmt
+74734869,Bank of America,1/9/2021,d,5.00,Revolut Silver subscription,USD,,fee
+26744744,Lidl,1/9/2021,d,33.90,Supermaket shopping,USD,5499,pmt
+38970077,Glovo,1/9/2021,d,31.30,Food delivery,USD,5811,pmt
+25182041,Wolt,1/9/2021,d,24.50,Food delivery,USD,5811,pmt
+17484730,Emmezeta,1/9/2021,d,41.90,Appliances,USD,5712,pmt
+13743307,Heating,1/10/2021,d,63.00,Utilities payment,USD,,pmt
+20670750,Revolut,1/10/2021,d,3.30,Revolut Silver subscription,USD,,fee
+61550061,Delhaize,1/10/2021,d,40.70,Supermaket shopping,USD,5499,pmt
+13793179,Lidl,1/10/2021,d,31.70,Supermaket shopping,USD,5499,pmt
+54803074,Glovo,1/10/2021,d,47.10,Food delivery,USD,5811,pmt
+62403764,Wolt,1/10/2021,d,20.20,Food delivery,USD,5811,pmt
+73316470,Wolt,1/10/2021,d,21.60,Food delivery,USD,5811,pmt
+45707636,Generali,1/10/2021,d,45.80,Extended health insurance,USD,,pmt
+81379047,Lending Club,1/10/2021,d,33.20,Loan Payment,USD,,pmt
+87991257,Glovo,1/11/2021,d,40.60,Food delivery,USD,5811,pmt
+87031393,Lidl,1/11/2021,d,90.70,Supermaket shopping,USD,5200,pmt
+56230289,Revolut,1/12/2021,d,3.50,ATM withdrawal fee,USD,,fee
+14747494,Glovo,1/12/2021,d,18.80,Food delivery,USD,5811,pmt
+66430374,Karate club,1/12/2021,d,24.40,Club membership,USD,,pmt
+52979952,Revolut,1/13/2021,d,5.50,ATM withdrawal fee,USD,,fee
+33062101,Lidl,1/13/2021,d,37.10,Supermaket shopping,USD,5499,pmt
+35806343,Chase,1/13/2021,d,400.90,Rent pay,USD,,pmt
+59160066,Office365,1/13/2021,d,18.20,TV,USD,5045,pmt
+19306119,Fit and Fun,1/14/2021,d,24.40,Personal trainer,USD,,pmt
+88450187,T-Mobile,1/15/2021,d,13.20,Mobile phone bill,USD,,pmt
+81175550,New York Times,1/15/2021,d,3.10,National Geographic,USD,5192,pmt
+62684206,Glovo,1/15/2021,d,48.90,Food delivery,USD,5811,pmt
+85715522,Glovo,1/15/2021,d,26.80,Food delivery,USD,5811,pmt
+59865534,Karate club,1/15/2021,d,22.20,Club membership,USD,,pmt
+11405257,Shell,1/16/2021,d,45.40,Gasoline purchases,USD,5983,pmt
+55328081,Bank of America,1/16/2021,d,4.40,ATM withdrawal fee,USD,,fee
+25561285,Fit and Fun,1/16/2021,d,24.40,Gym membership,USD,,pmt
+47317900,Best Western,1/16/2021,d,"1,542.10",Hotel,USD,7011,pmt
+65798098,New York Times,1/17/2021,d,5.40,New York Times,USD,5192,pmt
+63481773,Lidl,1/17/2021,d,32.90,Supermaket shopping,USD,5499,pmt
+30284301,Wolt,1/17/2021,d,23.60,Food delivery,USD,5811,pmt
+70632405,Glovo,1/17/2021,d,32.00,Food delivery,USD,5811,pmt
+58200155,Asseco,1/17/2021,c,"2,382.40",Salary,USD,,sal
+70926853,Travel house,1/17/2021,d,532.40,Vacation,USD,5962,pmt
+18731176,,1/18/2021,d,204.10,ATM withdrawal,USD,,wdw
+35345408,City parkings,1/18/2021,d,2.00,Parking fee,USD,7523,pmt
+35262874,A1 Telecom,1/18/2021,d,6.10,Phone bill,USD,,pmt
+82337135,Comcast,1/18/2021,d,18.60,Television bill,USD,,pmt
+36000405,Wolt,1/18/2021,d,39.00,Food delivery,USD,5811,pmt
+68207272,Wolt,1/18/2021,d,38.30,Food delivery,USD,5811,pmt
+28813980,Glovo,1/18/2021,d,38.00,Food delivery,USD,5811,pmt
+29176780,Glovo,1/18/2021,d,50.00,Food delivery,USD,5811,pmt
+63897326,Fit and Fun,1/18/2021,d,27.30,Gym membership,USD,,pmt
+81206808,Apple,1/19/2021,d,15.20,Spotify premium subscription,USD,5733,pmt
+50289390,Bank of America,1/19/2021,d,7.90,Online banking fee,USD,,fee
+69969043,Lidl,1/19/2021,d,34.40,Supermaket shopping,USD,5499,pmt
+55106881,Delhaize,1/19/2021,d,30.30,Supermaket shopping,USD,5499,pmt
+36526776,Red Cross,1/19/2021,d,98.80,Charity,USD,,pmt
+62811505,Coinbase,1/19/2021,c,939.70,Project based fee,USD,,dep
+29420070,Wolt,1/20/2021,d,43.70,Food delivery,USD,5811,pmt
+55472439,Wolt,1/21/2021,d,19.30,Food delivery,USD,5811,pmt
+23692934,Wolt,1/21/2021,d,27.40,Food delivery,USD,5811,pmt
+78627884,Music school,1/22/2021,d,199.10,Tuition,USD,8299,pmt
+48787348,Glovo,1/22/2021,d,36.30,Food delivery,USD,5811,pmt
+36456188,Generali,1/22/2021,d,45.50,Extended health insurance,USD,,pmt
+24415144,Wells Fargo,1/22/2021,d,64.10,Loan Payment,USD,,pmt
+13921480,T-Mobile,1/23/2021,d,20.40,Mobile phone bill,USD,,pmt
+37642221,Glovo,1/23/2021,d,47.00,Food delivery,USD,5811,pmt
+27697612,Karate club,1/23/2021,d,29.90,Club membership,USD,,pmt
+84895059,The barbers,1/23/2021,d,38.20,Haircut,USD,7230,pmt
+77672113,Glovo,1/24/2021,d,35.90,Food delivery,USD,5811,pmt
+63809308,Table tenis club PingPong,1/24/2021,d,13.40,Table tennis 2 hrs,USD,5655,pmt
+81972960,Chase,1/24/2021,d,400.70,Rent pay,USD,,pmt
+29322322,Chase,1/24/2021,d,400.40,Rent pay,USD,,pmt
+45215367,Jill,1/24/2021,d,45.70,Allowance,USD,,pmt
+40208406,Adobe,1/24/2021,d,16.60,Games,USD,5045,pmt
+55541588,Shell,1/25/2021,d,41.90,Gasoline purchases,USD,5983,pmt
+28506860,A1 Telecom,1/25/2021,d,12.40,Mobile phone bill,USD,,pmt
+36154674,Revolut,1/25/2021,d,4.40,ATM withdrawal fee,USD,,fee
+63826888,Glovo,1/25/2021,d,41.60,Food delivery,USD,5811,pmt
+60866991,Karate club,1/25/2021,d,29.50,Membership,USD,,pmt
+89589207,Residential Property,1/25/2021,d,170.30,Tax pay,USD,9311,pmt
+32085229,Music school,1/26/2021,d,169.90,Tuition,USD,8299,pmt
+46151174,Wolt,1/26/2021,d,38.80,Food delivery,USD,5811,pmt
+32671432,Legend,1/26/2021,d,273.40,Fotwear,USD,,pmt
+52778926,Faculty of contemporary arts,1/27/2021,d,163.40,Tuition,USD,8299,pmt
+81496870,Glovo,1/27/2021,d,36.10,Food delivery,USD,5811,pmt
+80802711,Wolt,1/27/2021,d,25.60,Food delivery,USD,5811,pmt
+37785375,Pet store,1/27/2021,d,22.30,Shopping,USD,5995,pmt
+31551099,Pet salon Rex,1/27/2021,d,10.70,Grooming,USD,,pmt
+59714066,T-Mobile,1/28/2021,d,16.80,Mobile phone bill,USD,,pmt
+16022872,Pet hotel Happy Dog,1/28/2021,d,100.80,Monthly stay,USD,5995,pmt
+27849453,Tele9,2/2/2021,d,11.60,Television bill,USD,,pmt
+34319628,Hulu,2/2/2021,d,10.00,Netflix subscription,USD,,pmt
+75182589,Bank of America,2/2/2021,d,7.60,Online banking fee,USD,,fee
+87320434,Delhaize,2/2/2021,d,34.80,Supermaket shopping,USD,5499,pmt
+68514521,Wolt,2/2/2021,d,15.50,Food delivery,USD,5811,pmt
+15372512,Fit and Fun,2/2/2021,d,29.50,Personal trainer,USD,,pmt
+67356712,Coinbase,2/2/2021,c,928.60,Project based fee,USD,,dep
+58361465,Hertz,2/2/2021,d,14.70,Car rent,USD,7519,pmt
+27148066,Comcast,2/3/2021,d,11.30,Television bill,USD,,pmt
+78649843,Glovo,2/3/2021,d,26.40,Food delivery,USD,5811,pmt
+70889975,Glovo,2/3/2021,d,23.70,Food delivery,USD,5811,pmt
+11329310,Wolt,2/3/2021,d,27.40,Food delivery,USD,5811,pmt
+17927225,Wolt,2/4/2021,d,49.80,Food delivery,USD,5811,pmt
+51803613,Glovo,2/4/2021,d,48.80,Food delivery,USD,5811,pmt
+42572989,Wolt,2/4/2021,d,20.70,Food delivery,USD,5811,pmt
+32955143,Tax company,2/4/2021,d,"2,315.00",Tax pay,USD,9311,pmt
+66775618,Home cleaning service,2/5/2021,d,50.60,Cleaning,USD,,pmt
+23629944,Claire Stevens,2/5/2021,c,300.80,Monthly rent,USD,,dep
+84874402,Chevron,2/6/2021,d,71.30,Gasoline purchases,USD,5983,pmt
+35409985,Orange,2/7/2021,d,26.10,Internet bill,USD,,pmt
+46709053,Delhaize,2/7/2021,d,36.90,Supermaket shopping,USD,5499,pmt
+52385743,Wolt,2/7/2021,d,30.30,Food delivery,USD,5811,pmt
+31153688,Glovo,2/7/2021,d,33.30,Food delivery,USD,5811,pmt
+87296165,Wolt,2/7/2021,d,32.90,Food delivery,USD,5811,pmt
+69304214,Generali,2/7/2021,d,45.10,Extended health insurance,USD,,pmt
+83001561,The barbers,2/7/2021,d,35.70,Haircut,USD,7230,pmt
+56591253,Glovo,2/8/2021,d,41.50,Food delivery,USD,5811,pmt
+34131085,Glovo,2/8/2021,d,41.70,Food delivery,USD,5811,pmt
+13969038,Generali,2/8/2021,d,45.50,Extended health insurance,USD,,pmt
+17498427,Spotify,2/9/2021,d,16.00,Apple music subscription,USD,5733,pmt
+75932511,Wolt,2/9/2021,d,26.70,Food delivery,USD,5811,pmt
+15200726,Wolt,2/10/2021,d,50.00,Food delivery,USD,5811,pmt
+57169461,Glovo,2/10/2021,d,30.60,Food delivery,USD,5811,pmt
+74901989,Chase,2/10/2021,d,400.60,Rent pay,USD,,pmt
+13609418,Lidl,2/11/2021,d,40.70,Supermaket shopping,USD,5499,pmt
+25728595,Lidl,2/11/2021,d,35.60,Supermaket shopping,USD,5499,pmt
+81554231,Lidl,2/11/2021,d,37.30,Supermaket shopping,USD,5499,pmt
+31560846,Wolt,2/11/2021,d,24.30,Food delivery,USD,5811,pmt
+64880870,PersonalLoans,2/11/2021,d,9.90,Charge pay,USD,,fee
+26174855,Hulu,2/12/2021,d,10.50,Netflix subscription,USD,,pmt
+48519516,Glovo,2/12/2021,d,19.20,Food delivery,USD,5811,pmt
+87499780,Swimming pool Activa,2/12/2021,d,15.20,Table tennis 2 hrs,USD,5655,pmt
+47105503,Book depository,2/13/2021,d,15.80,Book,USD,,pmt
+89554504,Swimming school,2/13/2021,d,20.40,Membership,USD,,pmt
+16265468,Generali ado,2/14/2021,d,789.40,Kasko insurance,USD,6381,pmt
+76677421,National Geographic,2/14/2021,d,4.50,National Geographic,USD,5192,pmt
+27776411,Generali,2/14/2021,d,45.50,Extended health insurance,USD,,pmt
+24380867,Pet hotel Happy Dog,2/14/2021,d,100.50,Monthly stay,USD,5995,pmt
+50487794,Glovo,2/16/2021,d,23.00,Food delivery,USD,5811,pmt
+32192649,Glovo,2/16/2021,d,26.20,Food delivery,USD,5811,pmt
+11008302,Red Cross,2/16/2021,d,52.10,Charity,USD,,pmt
+25577580,Book depository,2/17/2021,d,14.70,Amazon Kindle subscription,USD,,pmt
+65079418,Glovo,2/17/2021,d,17.10,Food delivery,USD,5811,pmt
+89924962,Wolt,2/18/2021,d,28.50,Food delivery,USD,5811,pmt
+17281392,Wolt,2/18/2021,d,43.60,Food delivery,USD,5811,pmt
+25814966,Amazon,2/18/2021,d,20.60,Science fiction,USD,5192,pmt
+12863727,A1 Telecom,2/20/2021,d,29.30,Internet bill,USD,,pmt
+81491994,Lidl,2/20/2021,d,37.30,Supermaket shopping,USD,5499,pmt
+58838367,Delhaize,2/20/2021,d,31.60,Supermaket shopping,USD,5499,pmt
+37734533,Glovo,2/20/2021,d,46.70,Food delivery,USD,5811,pmt
+16932601,Medilife,2/20/2021,d,42.80,General Practitioner,USD,8011,pmt
+69165310,R-Pharm,2/20/2021,d,37.30,Medicine,USD,5912,pmt
+27088707,Claire Stevens,2/20/2021,c,300.80,Monthly rent,USD,,dep
+70261366,Orange,2/21/2021,d,5.00,Phone bill,USD,,pmt
+52466008,Wolt,2/21/2021,d,49.90,Food delivery,USD,5811,pmt
+31795569,Generali,2/21/2021,d,45.90,Extended health insurance,USD,,pmt
+49895939,Claire Stevens,2/21/2021,c,301.00,Monthly rent,USD,,dep
+36443001,,2/22/2021,d,261.30,ATM withdrawal,USD,,wdw
+23640269,Electro distribution,2/22/2021,d,77.90,Utilities payment,USD,,pmt
+89936274,Bank of America,2/22/2021,d,4.70,Revolut Silver subscription,USD,,fee
+74868229,Office365,2/22/2021,d,10.60,Games,USD,5045,pmt
+18122741,City parkings,2/23/2021,d,2.00,Parking fee,USD,7523,pmt
+38261701,Bank of America,2/23/2021,d,3.20,Online banking fee,USD,,fee
+63809101,Delhaize,2/23/2021,d,30.40,Supermaket shopping,USD,5499,pmt
+35545492,Wolt,2/23/2021,d,24.50,Food delivery,USD,5811,pmt
+79633437,Wolt,2/23/2021,d,34.70,Food delivery,USD,5811,pmt
+78153934,Gerber Products Company,2/23/2021,d,78.00,Baby wardrobe,USD,,pmt
+85979197,UniCredit Leasing,2/24/2021,d,450.00,Financial leasing,USD,7394,pmt
+74014301,Raiffeisen Leasing,2/24/2021,d,450.00,Financial leasing,USD,7394,pmt
+64156976,Revolut,2/24/2021,d,4.30,ATM withdrawal fee,USD,,fee
+78768783,Wolt,2/24/2021,d,24.80,Food delivery,USD,5811,pmt
+40328813,Glovo,2/24/2021,d,27.60,Food delivery,USD,5811,pmt
+63017868,Glovo,2/24/2021,d,19.40,Food delivery,USD,5811,pmt
+18912877,Lidl,2/24/2021,d,89.50,Supermaket shopping,USD,5200,pmt
+35750091,Karate club,2/24/2021,d,24.90,Club membership,USD,,pmt
+87379790,Revolut,2/25/2021,d,5.50,ATM withdrawal fee,USD,,fee
+79522957,Glovo,2/25/2021,d,26.70,Food delivery,USD,5811,pmt
+87703931,Save our kids,2/25/2021,d,43.00,Charity,USD,,pmt
+63228493,Fit and Fun,2/25/2021,d,21.40,Gym membership,USD,,pmt
+42356974,Comcast,2/26/2021,d,20.00,Television bill,USD,,pmt
+53216135,Hulu,2/26/2021,d,10.70,Hulu subscription,USD,,pmt
+27969440,Swimming pool Activa,2/26/2021,d,10.40,Daily pool ticket,USD,5655,pmt
+69950114,Jill,2/26/2021,d,39.90,Allowance,USD,,pmt
+46043457,Swimming school,2/26/2021,d,24.00,Club membership,USD,,pmt
+77541439,Glovo,2/27/2021,d,44.40,Food delivery,USD,5811,pmt
+28962498,Glovo,2/27/2021,d,32.40,Food delivery,USD,5811,pmt
+67126878,Glovo,2/27/2021,d,43.90,Food delivery,USD,5811,pmt
+11951369,Serenity Wellnes,2/27/2021,d,25.40,Spa treatment,USD,8050,pmt
+49426791,Adobe,2/27/2021,d,16.70,Games,USD,5045,pmt
+47798608,City parkings,2/28/2021,d,1.40,Parking fee,USD,7523,pmt
+83696992,Bank of America,2/28/2021,d,6.60,Online banking fee,USD,,fee
+44582621,Lidl,2/28/2021,d,32.60,Supermaket shopping,USD,5499,pmt
+88732506,Glovo,2/28/2021,d,29.00,Food delivery,USD,5811,pmt
+20694176,Home cleaning service,2/28/2021,d,47.80,Cleaning,USD,,pmt
+22253331,Faculty of contemporary arts,3/1/2021,d,196.70,Tuition,USD,8299,pmt
+70084400,Amazon,3/1/2021,d,8.00,Amazon Kindle subscription,USD,,pmt
+22968080,National Geographic,3/1/2021,d,4.20,New York Times,USD,5192,pmt
+16166338,Glovo,3/1/2021,d,34.80,Food delivery,USD,5811,pmt
+40182091,Glovo,3/1/2021,d,30.10,Food delivery,USD,5811,pmt
+46133888,Wolt,3/1/2021,d,36.60,Food delivery,USD,5811,pmt
+54381518,Pet salon Rex,3/1/2021,d,10.00,Grooming,USD,,pmt
+25128541,MetLife,3/2/2021,d,200.50,Life insurance premium,USD,6300,pmt
+39522352,Josh,3/2/2021,d,42.20,Allowance,USD,,pmt
+84330116,Sixt GmbH,3/2/2021,d,11.40,Car rent,USD,7519,pmt
+24336861,Heating,3/3/2021,d,95.90,Utilities payment,USD,,pmt
+39402677,Bank of America,3/3/2021,d,5.40,Revolut Silver subscription,USD,,fee
+64844805,Lily,3/3/2021,d,38.90,Medicine,USD,5912,pmt
+80465508,Swimming pool Activa,3/3/2021,d,15.60,Table tennis 2 hrs,USD,5655,pmt
+36679148,Home cleaning service,3/3/2021,d,50.40,Cleaning,USD,,pmt
+48124924,MasterCard,3/3/2021,d,57.40,Pay with Visa,USD,,pmt
+43572207,Glovo,3/4/2021,d,45.50,Food delivery,USD,5811,pmt
+38852592,Fit and Fun,3/4/2021,d,27.10,Personal trainer,USD,,pmt
+81106968,Asseco,3/4/2021,c,"2,376.50",Salary,USD,,sal
+21844448,Earnest,3/4/2021,d,11.50,Charge pay,USD,,fee
+67876402,Adobe,3/4/2021,d,11.00,TV,USD,5045,pmt
+21951934,Glovo,3/5/2021,d,42.90,Food delivery,USD,5811,pmt
+58058332,Glovo,3/5/2021,d,22.00,Food delivery,USD,5811,pmt
+51397021,Lidl,3/5/2021,d,93.70,Supermaket shopping,USD,5200,pmt
+40847561,Electro distribution,3/6/2021,d,45.80,Utilities payment,USD,,pmt
+53870822,Apple,3/6/2021,d,15.90,Spotify premium subscription,USD,5733,pmt
+55734581,Wolt,3/6/2021,d,40.60,Food delivery,USD,5811,pmt
+66580403,Glovo,3/6/2021,d,36.80,Food delivery,USD,5811,pmt
+12088253,Hertz,3/6/2021,d,14.50,Taxi,USD,7519,pmt
+11054450,A1 Telecom,3/7/2021,d,5.50,Phone bill,USD,,pmt
+67952685,A1 Telecom,3/7/2021,d,34.00,Internet bill,USD,,pmt
+40790136,Delhaize,3/7/2021,d,37.70,Supermaket shopping,USD,5499,pmt
+84003434,Glovo,3/7/2021,d,39.30,Food delivery,USD,5811,pmt
+43248167,Pet shop,3/7/2021,d,23.80,Shopping,USD,5995,pmt
+36137786,Spotify,3/8/2021,d,15.60,Apple music subscription,USD,5733,pmt
+30467833,Wolt,3/8/2021,d,37.50,Food delivery,USD,5811,pmt
+86175280,Earnest,3/8/2021,d,6.70,Charge pay,USD,,fee
+42122897,A1 Telecom,3/9/2021,d,20.50,Mobile phone bill,USD,,pmt
+19536279,Electro distribution,3/9/2021,d,66.10,Utilities payment,USD,,pmt
+76087191,Delhaize,3/9/2021,d,37.90,Supermaket shopping,USD,5499,pmt
+42247740,Pet salon Rex,3/9/2021,d,10.50,Grooming,USD,,pmt
+58741126,Bank of America,3/10/2021,d,5.70,ATM withdrawal fee,USD,,fee
+32663461,Wolt,3/10/2021,d,22.50,Food delivery,USD,5811,pmt
+80679455,PersonalLoans,3/10/2021,d,12.50,Charge pay,USD,,fee
+63717018,Protetcta,3/11/2021,d,29.40,Doctor's appointment,USD,8011,pmt
+62809479,Glovo,3/12/2021,d,22.80,Food delivery,USD,5811,pmt
+73499286,Lidl,3/13/2021,d,30.20,Supermaket shopping,USD,5499,pmt
+29382356,Lidl,3/13/2021,d,34.90,Supermaket shopping,USD,5499,pmt
+56765457,A1 Telecom,3/14/2021,d,18.60,Mobile phone bill,USD,,pmt
+59482560,Delhaize,3/14/2021,d,30.30,Supermaket shopping,USD,5499,pmt
+16317033,Glovo,3/14/2021,d,31.20,Food delivery,USD,5811,pmt
+85705641,Lending Club,3/14/2021,d,70.40,Loan Payment,USD,,pmt
+30790257,Wolt,3/15/2021,d,18.40,Food delivery,USD,5811,pmt
+62686611,Wolt,3/15/2021,d,19.90,Food delivery,USD,5811,pmt
+76617746,Asseco,3/15/2021,c,"2,457.20",Salary,USD,,sal
+62678590,City parkings,3/16/2021,d,2.70,Parking fee,USD,7523,pmt
+69109474,Heating,3/16/2021,d,34.00,Utilities payment,USD,,pmt
+18237211,Hulu,3/16/2021,d,9.50,Netflix subscription,USD,,pmt
+36303640,Lidl,3/16/2021,d,40.00,Supermaket shopping,USD,5499,pmt
+76988613,Glovo,3/16/2021,d,44.00,Food delivery,USD,5811,pmt
+39222365,Faculty of contemporary arts,3/17/2021,d,155.10,Tuition,USD,8299,pmt
+85609414,Adobe,3/17/2021,d,19.50,Games,USD,5045,pmt
+25121097,,3/18/2021,d,127.80,ATM withdrawal,USD,,wdw
+56824971,T-Mobile,3/18/2021,d,13.20,Mobile phone bill,USD,,pmt
+60446112,National Geographic,3/18/2021,d,5.50,New York Times,USD,5192,pmt
+10700110,Delhaize,3/18/2021,d,39.80,Supermaket shopping,USD,5499,pmt
+26402275,Raiffeisen Leasing,3/19/2021,d,451.00,Financial leasing,USD,7394,pmt
+35873729,MetLife,3/19/2021,d,200.80,Life insurance premium,USD,6300,pmt
+31677312,Lidl,3/19/2021,d,33.50,Supermaket shopping,USD,5499,pmt
+59715866,Glovo,3/19/2021,d,39.10,Food delivery,USD,5811,pmt
+87903961,Fit and Fun,3/19/2021,d,25.60,Gym membership,USD,,pmt
+87777270,R-Pharm,3/19/2021,d,39.80,Medicine,USD,5912,pmt
+64853660,Visa,3/19/2021,d,83.20,Pay with Mastercard,USD,,pmt
+47454144,Hertz,3/19/2021,d,15.60,Taxi,USD,7519,pmt
+73621891,Glovo,3/20/2021,d,29.30,Food delivery,USD,5811,pmt
+10566088,UniCredit Leasing,3/21/2021,d,450.00,Financial leasing,USD,7394,pmt
+49931536,A1 Telecom,3/21/2021,d,14.20,Mobile phone bill,USD,,pmt
+35938062,Bank of America,3/21/2021,d,4.80,Online banking fee,USD,,fee
+34881422,Glovo,3/21/2021,d,36.90,Food delivery,USD,5811,pmt
+43061695,Wolt,3/21/2021,d,47.20,Food delivery,USD,5811,pmt
+45251421,Serenity Wellnes,3/21/2021,d,20.60,Spa treatment,USD,8050,pmt
+55815716,New York Times,3/22/2021,d,3.70,National Geographic,USD,5192,pmt
+17871871,Delhaize,3/22/2021,d,34.00,Supermaket shopping,USD,5499,pmt
+87414176,Lidl,3/22/2021,d,31.60,Supermaket shopping,USD,5499,pmt
+71881460,Glovo,3/22/2021,d,21.80,Food delivery,USD,5811,pmt
+79643904,Pet store,3/22/2021,d,24.40,Shopping,USD,5995,pmt
+56555459,R-Pharm,3/23/2021,d,30.70,Medicine,USD,5912,pmt
+65192788,Serenity Wellnes,3/23/2021,d,20.90,Massage,USD,8050,pmt
+65422095,Orange,3/24/2021,d,21.90,Internet bill,USD,,pmt
+86366332,Glovo,3/24/2021,d,48.10,Food delivery,USD,5811,pmt
+79283173,Wolt,3/24/2021,d,38.80,Food delivery,USD,5811,pmt
+18570037,Generali,3/24/2021,d,45.60,Extended health insurance,USD,,pmt
+51517103,Hooters Air,3/24/2021,d,487.30,Ticket pay,USD,,pmt
+89223418,Revolut,3/25/2021,d,3.40,ATM withdrawal fee,USD,,fee
+32995890,Glovo,3/25/2021,d,40.10,Food delivery,USD,5811,pmt
+42148328,Amazon,3/26/2021,d,7.60,Book,USD,,pmt
+27156890,Wolt,3/26/2021,d,41.50,Food delivery,USD,5811,pmt
+84413223,Glovo,3/26/2021,d,17.30,Food delivery,USD,5811,pmt
+75840817,Ikea,3/26/2021,d,45.70,Appliances,USD,5712,pmt
+14191784,Jill,3/26/2021,d,36.20,Allowance,USD,,pmt
+56345828,A1 Telecom,3/27/2021,d,34.10,Internet bill,USD,,pmt
+31571587,Delhaize,3/27/2021,d,37.70,Supermaket shopping,USD,5499,pmt
+88965487,Wolt,3/27/2021,d,15.20,Food delivery,USD,5811,pmt
+32462400,Wolt,3/27/2021,d,39.40,Food delivery,USD,5811,pmt
+72626830,Jill,3/27/2021,d,50.10,Allowance,USD,,pmt
+38483304,Wolt,3/28/2021,d,36.30,Food delivery,USD,5811,pmt
+70473238,Glovo,3/28/2021,d,15.20,Food delivery,USD,5811,pmt
+41169227,Comcast,4/1/2021,d,11.00,Television bill,USD,,pmt
+62166651,Delhaize,4/1/2021,d,30.90,Supermaket shopping,USD,5499,pmt
+16530178,Lidl,4/1/2021,d,34.30,Supermaket shopping,USD,5499,pmt
+40811501,Glovo,4/1/2021,d,45.30,Food delivery,USD,5811,pmt
+58871468,Fit and Fun,4/1/2021,d,23.20,Personal trainer,USD,,pmt
+10613403,Home cleaning service,4/1/2021,d,50.40,Cleaning,USD,,pmt
+85329257,Home cleaning service,4/1/2021,d,45.80,Cleaning,USD,,pmt
+77083739,Lending Club,4/1/2021,d,42.40,Loan Payment,USD,,pmt
+43728875,Electro distribution,4/2/2021,d,90.70,Utilities payment,USD,,pmt
+82754807,Wolt,4/2/2021,d,26.60,Food delivery,USD,5811,pmt
+66469636,R-Pharm,4/2/2021,d,38.70,Medicine,USD,5912,pmt
+41607473,Home cleaning service,4/2/2021,d,47.40,Cleaning,USD,,pmt
+26768209,Blue moon spa,4/2/2021,d,22.30,Massage,USD,8050,pmt
+20242555,Travel house,4/2/2021,d,888.70,Vacation,USD,5962,pmt
+66930857,City parkings,4/3/2021,d,2.90,Parking fee,USD,7523,pmt
+68771956,Home cleaning service,4/3/2021,d,49.50,Cleaning,USD,,pmt
+12211755,Asseco,4/3/2021,c,"2,313.30",Salary,USD,,sal
+72519920,Serenity Wellnes,4/3/2021,d,23.50,Massage,USD,8050,pmt
+59799014,Wolt,4/4/2021,d,29.00,Food delivery,USD,5811,pmt
+56190221,Home cleaning service,4/4/2021,d,50.30,Cleaning,USD,,pmt
+72359262,Wells Fargo,4/4/2021,d,38.20,Loan Payment,USD,,pmt
+85983811,Office365,4/4/2021,d,16.70,TV,USD,5045,pmt
+32058742,Hulu,4/5/2021,d,9.50,Netflix subscription,USD,,pmt
+11219573,Glovo,4/5/2021,d,17.20,Food delivery,USD,5811,pmt
+12438945,Save our kids,4/5/2021,d,52.00,Charity,USD,,pmt
+88132422,Connexus,4/6/2021,d,400.60,Mortgage pay,USD,,pmt
+40158705,Barber shop,4/6/2021,d,24.60,Hair dye,USD,7230,pmt
+71433274,Apple,4/7/2021,d,15.70,Apple music subscription,USD,5733,pmt
+57456544,New York Times,4/7/2021,d,5.70,National Geographic,USD,5192,pmt
+12175584,Lidl,4/7/2021,d,30.40,Supermaket shopping,USD,5499,pmt
+55679730,Barber shop,4/7/2021,d,28.80,Hair dye,USD,7230,pmt
+12729613,Pet shop,4/7/2021,d,23.80,Shopping,USD,5995,pmt
+27026831,Faculty of contemporary arts,4/8/2021,d,181.60,Tuition,USD,8299,pmt
+77130981,New York Times,4/8/2021,d,6.00,National Geographic,USD,5192,pmt
+71750058,Delhaize,4/8/2021,d,30.70,Supermaket shopping,USD,5499,pmt
+26836710,Glovo,4/8/2021,d,15.90,Food delivery,USD,5811,pmt
+28133657,Lidl,4/8/2021,d,93.30,Supermaket shopping,USD,5200,pmt
+15233362,Hertz,4/8/2021,d,11.80,Taxi,USD,7519,pmt
+40321434,MetLife,4/10/2021,d,200.10,Life insurance premium,USD,6300,pmt
+48260170,Swimming pool Activa,4/10/2021,d,13.90,Daily pool ticket,USD,5655,pmt
+78584321,Residential Property,4/10/2021,d,172.40,Tax pay,USD,9311,pmt
+86781380,Amazon,4/11/2021,d,13.70,Book,USD,,pmt
+42494853,MetLife,4/11/2021,d,200.80,Life insurance premium,USD,6300,pmt
+56194708,Glovo,4/11/2021,d,24.20,Food delivery,USD,5811,pmt
+42056591,Home cleaning service,4/11/2021,d,48.30,Cleaning,USD,,pmt
+27921598,Delhaize,4/11/2021,d,82.00,Supermaket shopping,USD,5200,pmt
+35272422,,4/12/2021,d,155.30,ATM withdrawal,USD,,wdw
+36604310,Comcast,4/12/2021,d,16.60,Television bill,USD,,pmt
+48763143,Tele9,4/12/2021,d,10.60,Television bill,USD,,pmt
+47417977,Delhaize,4/12/2021,d,34.50,Supermaket shopping,USD,5499,pmt
+87432031,Delhaize,4/12/2021,d,37.50,Supermaket shopping,USD,5499,pmt
+76544689,Wolt,4/12/2021,d,43.60,Food delivery,USD,5811,pmt
+45916154,Generali,4/12/2021,d,45.70,Extended health insurance,USD,,pmt
+16158965,Lily,4/12/2021,d,38.70,Medicine,USD,5912,pmt
+41724617,Adobe,4/12/2021,d,18.60,Games,USD,5045,pmt
+13503667,MasterCard,4/12/2021,d,77.50,Pay with Visa,USD,,pmt
+49604265,A1 Telecom,4/13/2021,d,24.80,Internet bill,USD,,pmt
+68077710,Amazon,4/13/2021,d,12.90,Book,USD,,pmt
+20753352,Asseco,4/13/2021,c,"2,497.10",Salary,USD,,sal
+86735144,Faculty of contemporary arts,4/14/2021,d,199.30,Tuition,USD,8299,pmt
+73393927,National Geographic,4/14/2021,d,5.10,National Geographic,USD,5192,pmt
+82016683,Lidl,4/14/2021,d,39.10,Supermaket shopping,USD,5499,pmt
+58040610,Glovo,4/14/2021,d,49.50,Food delivery,USD,5811,pmt
+24004723,Wolt,4/14/2021,d,42.70,Food delivery,USD,5811,pmt
+87799232,Jill,4/14/2021,d,48.60,Allowance,USD,,pmt
+56603162,Gerber Products Company,4/14/2021,d,54.70,Baby wardrobe,USD,,pmt
+33000832,Revolut,4/15/2021,d,5.30,ATM withdrawal fee,USD,,fee
+32080328,Wolt,4/15/2021,d,33.80,Food delivery,USD,5811,pmt
+81260772,,4/16/2021,d,242.00,ATM withdrawal,USD,,wdw
+84152054,Table tenis club PingPong,4/16/2021,d,11.80,Table tennis 2 hrs,USD,5655,pmt
+31946105,Emmezeta,4/16/2021,d,52.90,Appliances,USD,5712,pmt
+14652043,Serenity Wellnes,4/16/2021,d,21.90,Massage,USD,8050,pmt
+35212561,Office365,4/16/2021,d,19.70,TV,USD,5045,pmt
+79467261,MasterCard,4/16/2021,d,96.20,Pay with Mastercard,USD,,pmt
+16228661,Hertz,4/16/2021,d,10.20,Car rent,USD,7519,pmt
+79168933,National Geographic,4/17/2021,d,4.40,National Geographic,USD,5192,pmt
+26901838,Revolut,4/17/2021,d,5.60,ATM withdrawal fee,USD,,fee
+83041035,Bank of America,4/17/2021,d,4.10,Revolut Silver subscription,USD,,fee
+16642307,MetLife,4/17/2021,d,201.00,Life insurance premium,USD,6300,pmt
+63219460,Glovo,4/17/2021,d,15.20,Food delivery,USD,5811,pmt
+76934379,Protetcta,4/17/2021,d,23.60,Doctor's appointment,USD,8011,pmt
+17750470,Office365,4/17/2021,d,19.00,TV,USD,5045,pmt
+57613960,Electro distribution,4/18/2021,d,54.00,Utilities payment,USD,,pmt
+52315763,Faculty of contemporary arts,4/18/2021,d,167.80,Tuition,USD,8299,pmt
+25319112,New York Times,4/18/2021,d,5.50,New York Times,USD,5192,pmt
+45330161,Wolt,4/18/2021,d,38.60,Food delivery,USD,5811,pmt
+22149999,Gift Voucher,4/18/2021,d,171.70,Birthday gifts,USD,5947,pmt
+27976815,Fit and Fun,4/18/2021,d,25.80,Gym membership,USD,,pmt
+43893103,Pet salon Rex,4/18/2021,d,10.20,Grooming,USD,,pmt
+67398830,Music school,4/19/2021,d,157.90,Tuition,USD,8299,pmt
+36370226,Glovo,4/19/2021,d,47.50,Food delivery,USD,5811,pmt
+62189376,Gift shop,4/19/2021,d,57.30,Birthday gifts,USD,5947,pmt
+52343821,Sixt GmbH,4/19/2021,d,11.60,Car rent,USD,7519,pmt
+18846955,A1 Telecom,4/20/2021,d,12.50,Mobile phone bill,USD,,pmt
+15387438,Delhaize,4/20/2021,d,37.70,Supermaket shopping,USD,5499,pmt
+81957044,Wolt,4/20/2021,d,32.60,Food delivery,USD,5811,pmt
+36958785,City parkings,4/21/2021,d,1.80,Parking fee,USD,7523,pmt
+58899244,Home cleaning service,4/21/2021,d,51.00,Cleaning,USD,,pmt
+10166729,Pet hotel Happy Dog,4/21/2021,d,100.60,Monthly stay,USD,5995,pmt
+40304231,Real Estate,4/21/2021,d,167.10,Tax pay,USD,9311,pmt
+11415482,Hulu,4/22/2021,d,5.40,Netflix subscription,USD,,pmt
+82672832,Glovo,4/22/2021,d,39.00,Food delivery,USD,5811,pmt
+57913436,,4/23/2021,d,162.00,ATM withdrawal,USD,,wdw
+65883674,Bank of America,4/23/2021,d,4.70,Revolut Silver subscription,USD,,fee
+83836055,Wolt,4/23/2021,d,21.80,Food delivery,USD,5811,pmt
+17444905,Glovo,4/23/2021,d,18.70,Food delivery,USD,5811,pmt
+17255605,Delhaize,4/23/2021,d,90.20,Supermaket shopping,USD,5200,pmt
+60014073,Karate club,4/23/2021,d,20.60,Club membership,USD,,pmt
+83216834,Serenity Wellnes,4/23/2021,d,24.90,Massage,USD,8050,pmt
+62242503,Comcast,4/24/2021,d,18.30,Television bill,USD,,pmt
+62726303,Book depository,4/24/2021,d,7.20,Amazon Kindle subscription,USD,,pmt
+12887873,Glovo,4/24/2021,d,16.10,Food delivery,USD,5811,pmt
+89356973,Glovo,4/24/2021,d,17.80,Food delivery,USD,5811,pmt
+21227361,Generali,4/24/2021,d,45.40,Extended health insurance,USD,,pmt
+86556224,Serenity Wellnes,4/24/2021,d,20.10,Massage,USD,8050,pmt
+66745234,Tele9,4/25/2021,d,10.50,Television bill,USD,,pmt
+57150698,Glovo,4/25/2021,d,17.50,Food delivery,USD,5811,pmt
+43287646,Home cleaning service,4/25/2021,d,48.50,Cleaning,USD,,pmt
+54996600,Lidl,4/25/2021,d,74.10,Supermaket shopping,USD,5200,pmt
+46265311,,4/26/2021,d,149.20,ATM withdrawal,USD,,wdw
+43287158,Generali,4/26/2021,d,45.00,Extended health insurance,USD,,pmt
+40973670,Wolt,4/27/2021,d,17.90,Food delivery,USD,5811,pmt
+57798469,Josh,4/27/2021,d,41.10,Allowance,USD,,pmt
+18628174,Blue moon spa,4/27/2021,d,21.50,Spa treatment,USD,8050,pmt
+75888461,A1 Telecom,4/28/2021,d,27.20,Internet bill,USD,,pmt
+64402112,T-Mobile,5/1/2021,d,15.50,Mobile phone bill,USD,,pmt
+25497564,Heating,5/1/2021,d,53.70,Utilities payment,USD,,pmt
+84915683,Lidl,5/1/2021,d,30.80,Supermaket shopping,USD,5499,pmt
+80551559,Wolt,5/1/2021,d,40.50,Food delivery,USD,5811,pmt
+89258546,Jill,5/1/2021,d,47.90,Allowance,USD,,pmt
+34713137,Raiffeisen Leasing,5/2/2021,d,450.90,Financial leasing,USD,7394,pmt
+28749057,Wolt,5/2/2021,d,32.10,Food delivery,USD,5811,pmt
+25869612,Hertz,5/2/2021,d,13.10,Taxi,USD,7519,pmt
+28166245,Hulu,5/3/2021,d,9.30,Hulu subscription,USD,,pmt
+49152289,Fit and Fun,5/3/2021,d,22.70,Gym membership,USD,,pmt
+11265683,Apple,5/4/2021,d,15.10,Spotify premium subscription,USD,5733,pmt
+48747430,Lidl,5/4/2021,d,38.00,Supermaket shopping,USD,5499,pmt
+17039506,Glovo,5/4/2021,d,15.50,Food delivery,USD,5811,pmt
+78392133,Sixt GmbH,5/4/2021,d,11.30,Taxi,USD,7519,pmt
+38283842,Sixt GmbH,5/4/2021,d,12.40,Car rent,USD,7519,pmt
+27846899,,5/5/2021,d,190.30,ATM withdrawal,USD,,wdw
+10421646,City parkings,5/5/2021,d,2.80,Parking fee,USD,7523,pmt
+33288207,A1 Telecom,5/5/2021,d,29.50,Internet bill,USD,,pmt
+69635201,Glovo,5/5/2021,d,18.60,Food delivery,USD,5811,pmt
+51680642,,5/6/2021,d,153.30,ATM withdrawal,USD,,wdw
+78796714,Comcast,5/6/2021,d,10.30,Television bill,USD,,pmt
+85152490,Bank of America,5/6/2021,d,7.60,Online banking fee,USD,,fee
+69032602,Wolt,5/6/2021,d,47.20,Food delivery,USD,5811,pmt
+35066055,Asseco,5/6/2021,c,"2,446.90",Salary,USD,,sal
+85605629,Wolt,5/7/2021,d,48.80,Food delivery,USD,5811,pmt
+76525894,Wolt,5/7/2021,d,16.90,Food delivery,USD,5811,pmt
+32909323,Lending Club,5/7/2021,d,64.00,Loan Payment,USD,,pmt
+49396339,MetLife,5/8/2021,d,200.40,Life insurance premium,USD,6300,pmt
+27881938,Lidl,5/8/2021,d,40.10,Supermaket shopping,USD,5499,pmt
+45353764,Wolt,5/8/2021,d,33.90,Food delivery,USD,5811,pmt
+11214644,,5/9/2021,d,241.10,ATM withdrawal,USD,,wdw
+82378068,Bank of America,5/9/2021,d,5.00,Revolut Silver subscription,USD,,fee
+58005439,Orange,5/10/2021,d,34.60,Internet bill,USD,,pmt
+70976000,Claire Stevens,5/10/2021,c,300.40,Monthly rent,USD,,dep
+10517968,Heating,5/11/2021,d,50.90,Utilities payment,USD,,pmt
+51637696,Electro distribution,5/11/2021,d,46.00,Utilities payment,USD,,pmt
+77004257,Wolt,5/11/2021,d,28.90,Food delivery,USD,5811,pmt
+20743203,Wolt,5/11/2021,d,46.30,Food delivery,USD,5811,pmt
+67749582,Coinbase,5/11/2021,c,645.60,Cryptocurrency sales,USD,,dep
+36764687,Glovo,5/12/2021,d,33.50,Food delivery,USD,5811,pmt
+82062321,Swimming pool Activa,5/12/2021,d,15.20,Daily pool ticket,USD,5655,pmt
+74452868,Coinbase,5/12/2021,c,724.20,Project based fee,USD,,dep
+52299796,A1 Telecom,5/13/2021,d,33.20,Internet bill,USD,,pmt
+44062965,Hulu,5/13/2021,d,8.60,Netflix subscription,USD,,pmt
+41527424,Glovo,5/13/2021,d,50.10,Food delivery,USD,5811,pmt
+71767649,Pet hotel Happy Dog,5/13/2021,d,100.50,Monthly stay,USD,5995,pmt
+63131923,Wolt,5/15/2021,d,17.60,Food delivery,USD,5811,pmt
+40883447,Lidl,5/15/2021,d,77.30,Supermaket shopping,USD,5200,pmt
+79145432,Lidl,5/15/2021,d,90.00,Supermaket shopping,USD,5200,pmt
+81792092,PersonalLoans,5/15/2021,d,7.00,Charge pay,USD,,fee
+25290482,Bank of America,5/16/2021,d,5.00,Online banking fee,USD,,fee
+32475545,Delhaize,5/16/2021,d,39.90,Supermaket shopping,USD,5499,pmt
+27801747,Lidl,5/16/2021,d,30.10,Supermaket shopping,USD,5499,pmt
+31849343,Delhaize,5/16/2021,d,83.90,Supermaket shopping,USD,5200,pmt
+59098190,Volvo service,5/17/2021,d,225.00,Regular service,USD,7538,pmt
+56670501,Wolt,5/17/2021,d,46.60,Food delivery,USD,5811,pmt
+44738521,Medilife,5/17/2021,d,48.50,Specialist,USD,8011,pmt
+35139353,Revolut,5/17/2021,c,273.30,Interest,USD,,dep
+79804236,Adobe,5/17/2021,d,15.20,Games,USD,5045,pmt
+11537344,Wolt,5/18/2021,d,29.20,Food delivery,USD,5811,pmt
+16365278,Glovo,5/18/2021,d,20.30,Food delivery,USD,5811,pmt
+37395197,Glovo,5/18/2021,d,25.40,Food delivery,USD,5811,pmt
+71697862,Orange,5/19/2021,d,5.70,Phone bill,USD,,pmt
+57135566,A1 Telecom,5/19/2021,d,13.20,Mobile phone bill,USD,,pmt
+83214659,Book depository,5/19/2021,d,121.60,Books,USD,,pmt
+46531845,Lidl,5/19/2021,d,31.50,Supermaket shopping,USD,5499,pmt
+11778002,Glovo,5/19/2021,d,45.20,Food delivery,USD,5811,pmt
+11138313,Glovo,5/19/2021,d,36.90,Food delivery,USD,5811,pmt
+44679002,Glovo,5/19/2021,d,45.10,Food delivery,USD,5811,pmt
+38281845,Fit and Fun,5/19/2021,d,21.80,Personal trainer,USD,,pmt
+78625804,Pet hotel Happy Dog,5/19/2021,d,100.90,Monthly stay,USD,5995,pmt
+53235293,Tele9,5/20/2021,d,14.50,Television bill,USD,,pmt
+65756810,Faculty of contemporary arts,5/20/2021,d,186.50,Tuition,USD,8299,pmt
+37852815,Delhaize,5/20/2021,d,34.30,Supermaket shopping,USD,5499,pmt
+58287808,Wolt,5/20/2021,d,21.60,Food delivery,USD,5811,pmt
+75885438,Lidl,5/20/2021,d,100.60,Supermaket shopping,USD,5200,pmt
+81183969,Josh,5/20/2021,d,35.70,Allowance,USD,,pmt
+89885929,Book depository,5/21/2021,d,13.40,Book,USD,,pmt
+32135981,Wolt,5/21/2021,d,44.40,Food delivery,USD,5811,pmt
+70729124,Electro distribution,5/22/2021,d,91.20,Utilities payment,USD,,pmt
+44991704,Amazon,5/22/2021,d,13.80,Book,USD,,pmt
+74699073,Delhaize,5/22/2021,d,33.70,Supermaket shopping,USD,5499,pmt
+38114025,Dental Plus,5/22/2021,d,30.30,Doctor's appointment,USD,8011,pmt
+15590012,Pet hotel Happy Dog,5/22/2021,d,100.30,Monthly stay,USD,5995,pmt
+57195573,A1 Telecom,5/23/2021,d,33.50,Internet bill,USD,,pmt
+67238049,Glovo,5/23/2021,d,34.80,Food delivery,USD,5811,pmt
+55206970,Glovo,5/23/2021,d,40.40,Food delivery,USD,5811,pmt
+69048741,Swimming school,5/23/2021,d,21.20,Membership,USD,,pmt
+65253880,Legend,5/23/2021,d,230.20,Clothes,USD,,pmt
+64747015,Office365,5/23/2021,d,11.90,Games,USD,5045,pmt
+29252863,Sixt GmbH,5/23/2021,d,10.00,Car rent,USD,7519,pmt
+69960872,Heating,5/24/2021,d,83.30,Utilities payment,USD,,pmt
+80018306,Wolt,5/24/2021,d,46.70,Food delivery,USD,5811,pmt
+37010602,Swimming pool Activa,5/24/2021,d,12.10,Table tennis 2 hrs,USD,5655,pmt
+12150661,Swimming school,5/24/2021,d,28.40,Membership,USD,,pmt
+70572567,A1 Telecom,5/25/2021,d,15.00,Mobile phone bill,USD,,pmt
+23492626,Glovo,5/25/2021,d,33.60,Food delivery,USD,5811,pmt
+72661802,Wolt,5/25/2021,d,27.90,Food delivery,USD,5811,pmt
+40918362,Wolt,5/25/2021,d,37.50,Food delivery,USD,5811,pmt
+15877780,Glovo,5/25/2021,d,33.80,Food delivery,USD,5811,pmt
+79075986,Serenity Wellnes,5/25/2021,d,21.80,Massage,USD,8050,pmt
+50235631,Best Western,5/25/2021,d,"1,563.50",Hotel,USD,7011,pmt
+13142380,Faculty of contemporary arts,5/26/2021,d,164.60,Tuition,USD,8299,pmt
+16725691,Fit and Fun,5/26/2021,d,24.30,Gym membership,USD,,pmt
+57934670,Faculty of contemporary arts,5/27/2021,d,180.20,Tuition,USD,8299,pmt
+21267660,Wolt,5/27/2021,d,45.80,Food delivery,USD,5811,pmt
+81174489,Wolt,5/27/2021,d,36.60,Food delivery,USD,5811,pmt
+54741976,Wolt,5/27/2021,d,22.40,Food delivery,USD,5811,pmt
+58884779,Claire Stevens,5/27/2021,c,300.10,Monthly rent,USD,,dep
+65715123,Office365,5/27/2021,d,18.70,Games,USD,5045,pmt
+35806463,Orange,5/28/2021,d,20.60,Internet bill,USD,,pmt
+76398578,Delhaize,5/28/2021,d,32.90,Supermaket shopping,USD,5499,pmt
+60661008,Lidl,5/28/2021,d,36.10,Supermaket shopping,USD,5499,pmt
+32670635,Earnest,5/28/2021,d,9.60,Charge pay,USD,,fee
+40176261,A1 Telecom,6/1/2021,d,17.30,Mobile phone bill,USD,,pmt
+88185546,Glovo,6/1/2021,d,48.10,Food delivery,USD,5811,pmt
+60642645,Glovo,6/1/2021,d,41.40,Food delivery,USD,5811,pmt
+55666996,Wolt,6/1/2021,d,35.20,Food delivery,USD,5811,pmt
+40404277,Karate club,6/1/2021,d,28.60,Club membership,USD,,pmt
+39320915,Lending Club,6/1/2021,d,40.20,Loan Payment,USD,,pmt
+84794104,T-Mobile,6/2/2021,d,17.80,Mobile phone bill,USD,,pmt
+26260247,Music school,6/2/2021,d,187.40,Tuition,USD,8299,pmt
+14241748,Wolt,6/2/2021,d,50.60,Food delivery,USD,5811,pmt
+38614165,Glovo,6/2/2021,d,25.60,Food delivery,USD,5811,pmt
+76352744,Generali,6/2/2021,d,46.00,Extended health insurance,USD,,pmt
+86049607,Hertz,6/2/2021,d,13.80,Car rent,USD,7519,pmt
+55042469,UniCredit Leasing,6/3/2021,d,450.10,Financial leasing,USD,7394,pmt
+78793209,MetLife,6/3/2021,d,201.00,Life insurance premium,USD,6300,pmt
+52828800,Glovo,6/3/2021,d,37.70,Food delivery,USD,5811,pmt
+25211120,Glovo,6/3/2021,d,20.40,Food delivery,USD,5811,pmt
+42653813,Lily,6/3/2021,d,32.10,Medicine,USD,5912,pmt
+27170962,Visa,6/3/2021,d,43.00,Pay with Mastercard,USD,,pmt
+42722837,Sixt GmbH,6/3/2021,d,10.30,Car rent,USD,7519,pmt
+58695247,A1 Telecom,6/4/2021,d,6.20,Phone bill,USD,,pmt
+67979945,Glovo,6/4/2021,d,28.90,Food delivery,USD,5811,pmt
+75119370,Glovo,6/4/2021,d,38.60,Food delivery,USD,5811,pmt
+41883185,,6/5/2021,d,176.40,ATM withdrawal,USD,,wdw
+13428868,Glovo,6/5/2021,d,32.10,Food delivery,USD,5811,pmt
+74089501,Glovo,6/5/2021,d,19.10,Food delivery,USD,5811,pmt
+32815199,Glovo,6/6/2021,d,49.80,Food delivery,USD,5811,pmt
+68586385,Generali,6/6/2021,d,45.10,Extended health insurance,USD,,pmt
+78831329,Springfield,6/6/2021,d,276.20,Fotwear,USD,,pmt
+32446632,Wolt,6/7/2021,d,24.30,Food delivery,USD,5811,pmt
+80168207,Generali,6/7/2021,d,45.60,Extended health insurance,USD,,pmt
+80963231,A1 Telecom,6/8/2021,d,5.70,Phone bill,USD,,pmt
+71234195,A1 Telecom,6/8/2021,d,26.70,Internet bill,USD,,pmt
+29025706,Lidl,6/8/2021,d,34.70,Supermaket shopping,USD,5499,pmt
+56241175,Wolt,6/8/2021,d,30.60,Food delivery,USD,5811,pmt
+46722956,City parkings,6/9/2021,d,2.50,Parking fee,USD,7523,pmt
+70811255,City parkings,6/9/2021,d,1.60,Parking fee,USD,7523,pmt
+73233292,Spotify,6/9/2021,d,15.70,Apple music subscription,USD,5733,pmt
+69872702,MetLife,6/9/2021,d,200.40,Life insurance premium,USD,6300,pmt
+81592583,Claire Stevens,6/9/2021,c,300.70,Monthly rent,USD,,dep
+34250943,City parkings,6/10/2021,d,1.40,Parking fee,USD,7523,pmt
+36923376,Faculty of contemporary arts,6/10/2021,d,166.00,Tuition,USD,8299,pmt
+87624165,Glovo,6/10/2021,d,34.80,Food delivery,USD,5811,pmt
+37050048,Earnest,6/10/2021,d,7.10,Charge pay,USD,,fee
+88920242,The barbers,6/10/2021,d,31.10,Haircut,USD,7230,pmt
+66478054,Hertz,6/10/2021,d,15.40,Car rent,USD,7519,pmt
+63727508,Wolt,6/11/2021,d,16.70,Food delivery,USD,5811,pmt
+83386978,Glovo,6/11/2021,d,33.00,Food delivery,USD,5811,pmt
+24529138,Glovo,6/11/2021,d,49.30,Food delivery,USD,5811,pmt
+43671471,Table tenis club PingPong,6/11/2021,d,13.90,Daily pool ticket,USD,5655,pmt
+30567845,Table tenis club PingPong,6/11/2021,d,15.70,Table tennis 2 hrs,USD,5655,pmt
+80437095,Wolt,6/12/2021,d,39.40,Food delivery,USD,5811,pmt
+84054407,Jill,6/12/2021,d,33.80,Allowance,USD,,pmt
+48213156,MasterCard,6/12/2021,d,38.90,Pay with Mastercard,USD,,pmt
+35238945,,6/13/2021,d,159.50,ATM withdrawal,USD,,wdw
+43709973,Tele9,6/13/2021,d,14.40,Television bill,USD,,pmt
+68026771,Wolt,6/13/2021,d,15.30,Food delivery,USD,5811,pmt
+55728558,Delhaize,6/14/2021,d,36.40,Supermaket shopping,USD,5499,pmt
+55475831,Wolt,6/14/2021,d,27.60,Food delivery,USD,5811,pmt
+19845649,Home cleaning service,6/14/2021,d,46.00,Cleaning,USD,,pmt
+51022583,Tele9,6/15/2021,d,20.50,Television bill,USD,,pmt
+72500295,Wolt,6/16/2021,d,15.70,Food delivery,USD,5811,pmt
+42528258,Wolt,6/16/2021,d,43.60,Food delivery,USD,5811,pmt
+84672865,Home cleaning service,6/17/2021,d,48.40,Cleaning,USD,,pmt
+40818997,Electro distribution,6/18/2021,d,68.90,Utilities payment,USD,,pmt
+29906504,Red Cross,6/18/2021,d,66.30,Charity,USD,,pmt
+82293549,City parkings,6/19/2021,d,1.90,Parking fee,USD,7523,pmt
+41634772,Lidl,6/19/2021,d,30.80,Supermaket shopping,USD,5499,pmt
+45492355,Glovo,6/19/2021,d,37.70,Food delivery,USD,5811,pmt
+14027691,Glovo,6/19/2021,d,24.30,Food delivery,USD,5811,pmt
+35977262,New York Times,6/20/2021,d,4.10,National Geographic,USD,5192,pmt
+73669183,Fit and Fun,6/20/2021,d,20.60,Personal trainer,USD,,pmt
+71499210,The barbers,6/20/2021,d,28.60,Haircut,USD,7230,pmt
+75504265,Real Estate,6/20/2021,d,193.90,Tax pay,USD,9311,pmt
+39301115,Glovo,6/21/2021,d,17.90,Food delivery,USD,5811,pmt
+67414938,Wolt,6/21/2021,d,40.40,Food delivery,USD,5811,pmt
+28647896,Wolt,6/21/2021,d,42.80,Food delivery,USD,5811,pmt
+49548658,Delhaize,6/22/2021,d,39.00,Supermaket shopping,USD,5499,pmt
+72098747,Lidl,6/22/2021,d,34.70,Supermaket shopping,USD,5499,pmt
+13417221,Jill,6/22/2021,d,38.90,Allowance,USD,,pmt
+42374342,Amazon,6/23/2021,d,9.80,Book,USD,,pmt
+14464698,Delhaize,6/23/2021,d,36.90,Supermaket shopping,USD,5499,pmt
+69117927,Wolt,6/23/2021,d,47.50,Food delivery,USD,5811,pmt
+47965387,Wolt,6/23/2021,d,31.70,Food delivery,USD,5811,pmt
+12787056,Wolt,6/23/2021,d,42.00,Food delivery,USD,5811,pmt
+85103658,,6/24/2021,d,156.30,ATM withdrawal,USD,,wdw
+36292652,Glovo,6/24/2021,d,25.60,Food delivery,USD,5811,pmt
+60833191,Wolt,6/24/2021,d,46.20,Food delivery,USD,5811,pmt
+38516274,Fit and Fun,6/24/2021,d,27.20,Personal trainer,USD,,pmt
+31859291,Lidl,6/24/2021,d,83.80,Supermaket shopping,USD,5200,pmt
+26024259,Bank of America,6/25/2021,d,7.80,Revolut Silver subscription,USD,,fee
+72707824,Jill,6/25/2021,d,39.60,Allowance,USD,,pmt
+72976201,Swimming school,6/25/2021,d,28.70,Membership,USD,,pmt
+47458905,Generali ado,6/26/2021,d,373.50,Kasko insurance,USD,6381,pmt
+18112493,T-Mobile,6/26/2021,d,16.00,Mobile phone bill,USD,,pmt
+10124603,Comcast,6/26/2021,d,15.70,Television bill,USD,,pmt
+13288456,Lidl,6/26/2021,d,35.50,Supermaket shopping,USD,5499,pmt
+44459054,Wolt,6/26/2021,d,26.60,Food delivery,USD,5811,pmt
+83279666,Glovo,6/27/2021,d,50.70,Food delivery,USD,5811,pmt
+77227016,Private consulting co,6/27/2021,c,621.40,Cryptocurrency sales,USD,,dep
+50301963,Wolt,6/28/2021,d,19.30,Food delivery,USD,5811,pmt
+17574037,Glovo,6/28/2021,d,29.70,Food delivery,USD,5811,pmt
+70740505,Wolt,6/28/2021,d,41.00,Food delivery,USD,5811,pmt
+89338217,Wolt,6/28/2021,d,50.30,Food delivery,USD,5811,pmt
+11544899,Swimming pool Activa,6/28/2021,d,15.80,Table tennis 2 hrs,USD,5655,pmt
+26443996,Pet salon Rex,6/28/2021,d,10.30,Grooming,USD,,pmt
+41275648,National Geographic,7/1/2021,d,4.40,New York Times,USD,5192,pmt
+83389417,Wolt,7/1/2021,d,35.70,Food delivery,USD,5811,pmt
+71492996,Glovo,7/1/2021,d,39.00,Food delivery,USD,5811,pmt
+67551085,Glovo,7/1/2021,d,24.00,Food delivery,USD,5811,pmt
+41156182,Serenity Wellnes,7/1/2021,d,24.30,Spa treatment,USD,8050,pmt
+68462287,Pet shop,7/1/2021,d,25.40,Shopping,USD,5995,pmt
+54958642,Lidl,7/2/2021,d,30.70,Supermaket shopping,USD,5499,pmt
+75032417,Glovo,7/2/2021,d,44.60,Food delivery,USD,5811,pmt
+55133330,Glovo,7/2/2021,d,30.10,Food delivery,USD,5811,pmt
+30770768,Glovo,7/3/2021,d,17.80,Food delivery,USD,5811,pmt
+54301158,Connexus,7/3/2021,d,400.50,Mortgage pay,USD,,pmt
+66918473,Josh,7/3/2021,d,48.70,Allowance,USD,,pmt
+69103489,Hertz,7/3/2021,d,14.90,Taxi,USD,7519,pmt
+52598314,A1 Telecom,7/4/2021,d,15.20,Mobile phone bill,USD,,pmt
+89808516,Delhaize,7/4/2021,d,39.40,Supermaket shopping,USD,5499,pmt
+44612571,Glovo,7/4/2021,d,46.60,Food delivery,USD,5811,pmt
+55263919,Glovo,7/4/2021,d,29.50,Food delivery,USD,5811,pmt
+62185692,Wolt,7/4/2021,d,46.30,Food delivery,USD,5811,pmt
+39038619,,7/5/2021,d,242.50,ATM withdrawal,USD,,wdw
+39961719,Chevron,7/5/2021,d,95.60,Gasoline purchases,USD,5983,pmt
+52635945,Glovo,7/5/2021,d,23.40,Food delivery,USD,5811,pmt
+15879337,Glovo,7/5/2021,d,43.40,Food delivery,USD,5811,pmt
+47708919,Chase,7/5/2021,d,400.80,Rent pay,USD,,pmt
+60451717,Asseco,7/5/2021,c,"2,432.00",Salary,USD,,sal
+26608760,"Auto registration agency ""Sport""",7/6/2021,d,284.00,Yearly car registration ,USD,7542,pmt
+69854485,Glovo,7/6/2021,d,22.60,Food delivery,USD,5811,pmt
+68794249,Book depository,7/7/2021,d,14.00,Amazon Kindle subscription,USD,,pmt
+31488575,Wolt,7/8/2021,d,16.70,Food delivery,USD,5811,pmt
+41464495,Wolt,7/8/2021,d,29.40,Food delivery,USD,5811,pmt
+88164688,UniCredit Leasing,7/9/2021,d,450.20,Financial leasing,USD,7394,pmt
+60572795,Netflix,7/9/2021,d,8.70,Hulu subscription,USD,,pmt
+12781189,Wolt,7/9/2021,d,41.60,Food delivery,USD,5811,pmt
+58228826,Pet hotel Happy Dog,7/9/2021,d,100.10,Monthly stay,USD,5995,pmt
+77558452,Chevron,7/10/2021,d,74.40,Gasoline purchases,USD,5983,pmt
+67157207,Delhaize,7/10/2021,d,34.90,Supermaket shopping,USD,5499,pmt
+18928786,Wolt,7/10/2021,d,21.20,Food delivery,USD,5811,pmt
+58856951,Red Cross,7/10/2021,d,33.70,Charity,USD,,pmt
+56524968,Gift Voucher,7/10/2021,d,57.30,Other gifts,USD,5947,pmt
+82346258,Bank of America,7/11/2021,d,4.90,ATM withdrawal fee,USD,,fee
+24353202,Swimming school,7/11/2021,d,30.30,Club membership,USD,,pmt
+51711818,Dental Plus,7/12/2021,d,15.30,Doctor's appointment,USD,8011,pmt
+70572176,Home cleaning service,7/12/2021,d,45.60,Cleaning,USD,,pmt
+11100097,Lidl,7/12/2021,d,73.30,Supermaket shopping,USD,5200,pmt
+10047525,Tele9,7/13/2021,d,18.10,Television bill,USD,,pmt
+15073047,Medigroup,7/13/2021,d,57.40,Specialist,USD,8011,pmt
+88422634,Generali,7/13/2021,d,45.60,Extended health insurance,USD,,pmt
+76063629,Glovo,7/14/2021,d,17.80,Food delivery,USD,5811,pmt
+12787396,Visa,7/14/2021,d,54.40,Pay with Mastercard,USD,,pmt
+56146772,City parkings,7/15/2021,d,2.40,Parking fee,USD,7523,pmt
+44881457,Hulu,7/15/2021,d,8.70,Netflix subscription,USD,,pmt
+63503062,Wolt,7/15/2021,d,32.70,Food delivery,USD,5811,pmt
+27315864,Hertz,7/16/2021,d,10.60,Car rent,USD,7519,pmt
+39591523,City parkings,7/17/2021,d,1.60,Parking fee,USD,7523,pmt
+66371293,Bank of America,7/17/2021,d,2.70,ATM withdrawal fee,USD,,fee
+11316805,Glovo,7/17/2021,d,46.90,Food delivery,USD,5811,pmt
+39751149,Wolt,7/17/2021,d,24.20,Food delivery,USD,5811,pmt
+49173606,Gift shop,7/17/2021,d,128.10,Birthday gifts,USD,5947,pmt
+38751212,Lidl,7/18/2021,d,85.60,Supermaket shopping,USD,5200,pmt
+64596902,Fit and Fun,7/19/2021,d,26.20,Personal trainer,USD,,pmt
+80305142,Table tenis club PingPong,7/19/2021,d,10.30,Table tennis 2 hrs,USD,5655,pmt
+58308855,Serenity Wellnes,7/19/2021,d,22.20,Massage,USD,8050,pmt
+20563202,Shell,7/20/2021,d,72.90,Gasoline purchases,USD,5983,pmt
+28199360,Shell,7/20/2021,d,54.30,Gasoline purchases,USD,5983,pmt
+89036399,Music school,7/20/2021,d,182.90,Tuition,USD,8299,pmt
+68133666,Swimming pool Activa,7/20/2021,d,12.00,Table tennis 2 hrs,USD,5655,pmt
+74478939,Pet store,7/20/2021,d,24.80,Shopping,USD,5995,pmt
+17563885,Orange,7/21/2021,d,34.70,Internet bill,USD,,pmt
+29290813,Book depository,7/21/2021,d,19.70,Amazon Kindle subscription,USD,,pmt
+15739146,Wolt,7/21/2021,d,50.70,Food delivery,USD,5811,pmt
+19776028,Wolt,7/21/2021,d,34.60,Food delivery,USD,5811,pmt
+41859698,Wolt,7/21/2021,d,31.30,Food delivery,USD,5811,pmt
+23988646,Coinbase,7/21/2021,c,515.10,Cryptocurrency sales,USD,,dep
+32085157,Blue moon spa,7/21/2021,d,20.30,Spa treatment,USD,8050,pmt
+13787142,T-Mobile,7/22/2021,d,13.60,Mobile phone bill,USD,,pmt
+16431877,New York Times,7/22/2021,d,4.90,New York Times,USD,5192,pmt
+65818094,Home cleaning service,7/22/2021,d,50.90,Cleaning,USD,,pmt
+40800049,Hertz,7/22/2021,d,10.10,Taxi,USD,7519,pmt
+25378012,Heating,7/23/2021,d,67.00,Utilities payment,USD,,pmt
+47761879,Apple,7/23/2021,d,15.60,Spotify premium subscription,USD,5733,pmt
+60344073,MetLife,7/23/2021,d,200.30,Life insurance premium,USD,6300,pmt
+29842914,Glovo,7/23/2021,d,31.90,Food delivery,USD,5811,pmt
+44051113,Residential Property,7/23/2021,d,180.00,Tax pay,USD,9311,pmt
+24004997,Volvo service,7/24/2021,d,299.80,Regular service,USD,7538,pmt
+64169459,T-Mobile,7/24/2021,d,16.00,Mobile phone bill,USD,,pmt
+75444294,Wolt,7/24/2021,d,20.70,Food delivery,USD,5811,pmt
+54945283,Adobe,7/24/2021,d,11.10,Games,USD,5045,pmt
+60444928,National Geographic,7/25/2021,d,5.90,New York Times,USD,5192,pmt
+60671038,Claire Stevens,7/25/2021,c,300.60,Monthly rent,USD,,dep
+84550717,New York Times,7/26/2021,d,3.90,New York Times,USD,5192,pmt
+15668675,Wolt,7/26/2021,d,48.10,Food delivery,USD,5811,pmt
+29414113,Lidl,7/26/2021,d,88.50,Supermaket shopping,USD,5200,pmt
+59419204,Music school,7/27/2021,d,152.60,Tuition,USD,8299,pmt
+23828515,Netflix,7/27/2021,d,8.20,Hulu subscription,USD,,pmt
+27120629,Protetcta,7/27/2021,d,26.20,Doctor's appointment,USD,8011,pmt
+42703423,Medilife,7/27/2021,d,51.50,Specialist,USD,8011,pmt
+25199888,Generali,7/27/2021,d,45.50,Extended health insurance,USD,,pmt
+86549441,Lidl,7/27/2021,d,89.80,Supermaket shopping,USD,5200,pmt
+13043638,Glovo,7/28/2021,d,42.20,Food delivery,USD,5811,pmt
+28591000,Glovo,8/1/2021,d,43.40,Food delivery,USD,5811,pmt
+86382560,City parkings,8/2/2021,d,2.20,Parking fee,USD,7523,pmt
+26151806,T-Mobile,8/2/2021,d,15.80,Mobile phone bill,USD,,pmt
+31456783,Delhaize,8/2/2021,d,35.00,Supermaket shopping,USD,5499,pmt
+77995010,Wolt,8/2/2021,d,22.10,Food delivery,USD,5811,pmt
+84165596,,8/3/2021,d,132.10,ATM withdrawal,USD,,wdw
+13662479,Wolt,8/3/2021,d,38.60,Food delivery,USD,5811,pmt
+64855695,City parkings,8/4/2021,d,1.30,Parking fee,USD,7523,pmt
+71784584,Lidl,8/4/2021,d,34.40,Supermaket shopping,USD,5499,pmt
+87993781,Glovo,8/4/2021,d,44.80,Food delivery,USD,5811,pmt
+30512270,Wolt,8/4/2021,d,36.20,Food delivery,USD,5811,pmt
+54087134,Earnest,8/4/2021,d,6.20,Charge pay,USD,,fee
+87652164,City parkings,8/5/2021,d,2.50,Parking fee,USD,7523,pmt
+84748806,Wolt,8/5/2021,d,41.30,Food delivery,USD,5811,pmt
+78660436,Generali,8/5/2021,d,45.00,Extended health insurance,USD,,pmt
+84566914,Table tenis club PingPong,8/5/2021,d,13.50,Daily pool ticket,USD,5655,pmt
+26246109,Hulu,8/6/2021,d,8.30,Netflix subscription,USD,,pmt
+28237996,Delhaize,8/6/2021,d,34.80,Supermaket shopping,USD,5499,pmt
+44640927,Glovo,8/6/2021,d,24.80,Food delivery,USD,5811,pmt
+81508787,Generali,8/6/2021,d,45.60,Extended health insurance,USD,,pmt
+43960417,Lidl,8/6/2021,d,74.40,Supermaket shopping,USD,5200,pmt
+69495844,Gerber Products Company,8/6/2021,d,67.30,Baby nursery,USD,,pmt
+55820285,Hulu,8/7/2021,d,8.50,Netflix subscription,USD,,pmt
+28632888,Delhaize,8/7/2021,d,33.10,Supermaket shopping,USD,5499,pmt
+69172653,Glovo,8/7/2021,d,36.30,Food delivery,USD,5811,pmt
+39418979,A1 Telecom,8/8/2021,d,26.70,Internet bill,USD,,pmt
+18617893,Hulu,8/8/2021,d,5.40,Hulu subscription,USD,,pmt
+55684785,Bank of America,8/8/2021,d,12.60,Late fee,USD,,fee
+80429865,Delhaize,8/8/2021,d,39.90,Supermaket shopping,USD,5499,pmt
+42857192,Wolt,8/8/2021,d,30.40,Food delivery,USD,5811,pmt
+10448202,Fit and Fun,8/8/2021,d,20.50,Gym membership,USD,,pmt
+25511607,Pet salon Rex,8/8/2021,d,10.00,Grooming,USD,,pmt
+41276012,City parkings,8/9/2021,d,2.10,Parking fee,USD,7523,pmt
+64474596,Comcast,8/9/2021,d,15.70,Television bill,USD,,pmt
+28533093,Delhaize,8/9/2021,d,30.60,Supermaket shopping,USD,5499,pmt
+66758659,Delhaize,8/9/2021,d,86.20,Supermaket shopping,USD,5200,pmt
+85635367,Lending Club,8/9/2021,d,35.40,Loan Payment,USD,,pmt
+50825185,Revolut,8/10/2021,d,5.90,Revolut Silver subscription,USD,,fee
+23499396,Delhaize,8/10/2021,d,41.00,Supermaket shopping,USD,5499,pmt
+37191564,Glovo,8/10/2021,d,38.40,Food delivery,USD,5811,pmt
+80554166,Wolt,8/10/2021,d,17.10,Food delivery,USD,5811,pmt
+59623097,Glovo,8/10/2021,d,30.40,Food delivery,USD,5811,pmt
+49246022,Glovo,8/10/2021,d,44.00,Food delivery,USD,5811,pmt
+61363595,T-Mobile,8/11/2021,d,13.60,Mobile phone bill,USD,,pmt
+26007217,Amazon,8/11/2021,d,7.80,Book,USD,,pmt
+56055965,National Geographic,8/11/2021,d,4.30,National Geographic,USD,5192,pmt
+83101157,Wolt,8/11/2021,d,39.10,Food delivery,USD,5811,pmt
+66447839,Adobe,8/11/2021,d,10.80,Games,USD,5045,pmt
+42920242,,8/12/2021,d,166.30,ATM withdrawal,USD,,wdw
+70330922,,8/12/2021,d,151.00,ATM withdrawal,USD,,wdw
+76883489,Delhaize,8/12/2021,d,39.70,Supermaket shopping,USD,5499,pmt
+25127761,Glovo,8/12/2021,d,46.20,Food delivery,USD,5811,pmt
+89434996,Karate club,8/12/2021,d,27.20,Membership,USD,,pmt
+66405592,Wolt,8/13/2021,d,49.90,Food delivery,USD,5811,pmt
+83443227,Wolt,8/13/2021,d,26.20,Food delivery,USD,5811,pmt
+87939023,Gift shop,8/13/2021,d,173.90,Birthday gifts,USD,5947,pmt
+34904719,Generali,8/13/2021,d,45.60,Extended health insurance,USD,,pmt
+17317872,Home cleaning service,8/13/2021,d,45.40,Cleaning,USD,,pmt
+75638541,Asseco,8/13/2021,c,"8,132.00",Bonus deposit,USD,,dep
+21296484,Intersport,8/13/2021,d,121.30,Hiking,USD,5941,pmt
+84125709,Apple,8/14/2021,d,16.00,Apple music subscription,USD,5733,pmt
+48826635,Lidl,8/14/2021,d,32.60,Supermaket shopping,USD,5499,pmt
+34663615,Wolt,8/14/2021,d,22.00,Food delivery,USD,5811,pmt
+40472982,Josh,8/14/2021,d,34.60,Allowance,USD,,pmt
+22308911,Barber shop,8/14/2021,d,29.60,Haircut,USD,7230,pmt
+89553878,Hertz,8/14/2021,d,10.20,Car rent,USD,7519,pmt
+23999951,Netflix,8/15/2021,d,9.10,Netflix subscription,USD,,pmt
+30143305,Wolt,8/15/2021,d,47.20,Food delivery,USD,5811,pmt
+47190808,Home cleaning service,8/15/2021,d,49.60,Cleaning,USD,,pmt
+10058284,Orange,8/16/2021,d,24.50,Internet bill,USD,,pmt
+65551121,Apple,8/16/2021,d,15.70,Spotify premium subscription,USD,5733,pmt
+71773916,Generali,8/16/2021,d,45.90,Extended health insurance,USD,,pmt
+46597930,Johnson & Johnson,8/16/2021,d,58.10,Baby wardrobe,USD,,pmt
+48547275,Swimming school,8/16/2021,d,28.10,Membership,USD,,pmt
+79248082,Pet hotel Happy Dog,8/16/2021,d,100.70,Monthly stay,USD,5995,pmt
+17453807,Pet shop,8/16/2021,d,21.60,Shopping,USD,5995,pmt
+47932666,Delhaize,8/17/2021,d,32.70,Supermaket shopping,USD,5499,pmt
+17757610,Serenity Wellnes,8/17/2021,d,23.00,Massage,USD,8050,pmt
+83427132,Music school,8/18/2021,d,169.90,Tuition,USD,8299,pmt
+85289908,Bank of America,8/18/2021,d,6.80,Revolut Silver subscription,USD,,fee
+72012064,Delhaize,8/18/2021,d,36.50,Supermaket shopping,USD,5499,pmt
+85948375,A1 Telecom,8/19/2021,d,33.90,Internet bill,USD,,pmt
+41076447,Spotify,8/19/2021,d,15.30,Apple music subscription,USD,5733,pmt
+84127016,Bank of America,8/19/2021,d,4.30,Online banking fee,USD,,fee
+69742238,Wolt,8/19/2021,d,49.30,Food delivery,USD,5811,pmt
+32481620,Save our kids,8/19/2021,d,78.30,Charity,USD,,pmt
+10364820,The barbers,8/19/2021,d,22.70,Haircut,USD,7230,pmt
+57517957,Serenity Wellnes,8/19/2021,d,23.80,Spa treatment,USD,8050,pmt
+51271190,Comcast,8/20/2021,d,20.30,Television bill,USD,,pmt
+79223553,Music school,8/20/2021,d,198.20,Tuition,USD,8299,pmt
+39501055,Amazon,8/20/2021,d,8.70,Amazon Kindle subscription,USD,,pmt
+37150929,Glovo,8/20/2021,d,48.30,Food delivery,USD,5811,pmt
+34448613,Real Estate,8/20/2021,d,151.40,Tax pay,USD,9311,pmt
+29796533,T-Mobile,8/21/2021,d,13.20,Mobile phone bill,USD,,pmt
+30446210,A1 Telecom,8/21/2021,d,19.10,Mobile phone bill,USD,,pmt
+38257273,Bank of America,8/21/2021,d,5.20,ATM withdrawal fee,USD,,fee
+57240692,Glovo,8/21/2021,d,39.10,Food delivery,USD,5811,pmt
+43584577,Lending Club,8/21/2021,d,74.30,Loan Payment,USD,,pmt
+64069956,Electro distribution,8/22/2021,d,67.70,Utilities payment,USD,,pmt
+12029899,Fit and Fun,8/22/2021,d,24.60,Personal trainer,USD,,pmt
+43126377,Jill,8/22/2021,d,37.40,Allowance,USD,,pmt
+85739193,Table tenis club PingPong,8/23/2021,d,10.00,Daily pool ticket,USD,5655,pmt
+55381024,Home cleaning service,8/23/2021,d,47.60,Cleaning,USD,,pmt
+41758382,City parkings,8/24/2021,d,2.60,Parking fee,USD,7523,pmt
+43658389,Glovo,8/24/2021,d,32.40,Food delivery,USD,5811,pmt
+61979670,Wolt,8/24/2021,d,15.00,Food delivery,USD,5811,pmt
+10578334,Glovo,8/24/2021,d,15.00,Food delivery,USD,5811,pmt
+43319213,Dental Plus,8/24/2021,d,29.30,Doctor's appointment,USD,8011,pmt
+83689952,Table tenis club PingPong,8/24/2021,d,15.50,Table tennis 2 hrs,USD,5655,pmt
+85039329,Lidl,8/25/2021,d,32.10,Supermaket shopping,USD,5499,pmt
+77988353,Glovo,8/25/2021,d,17.30,Food delivery,USD,5811,pmt
+10023191,Adobe,8/25/2021,d,18.20,TV,USD,5045,pmt
+21409960,Wolt,8/26/2021,d,42.10,Food delivery,USD,5811,pmt
+18103482,Table tenis club PingPong,8/26/2021,d,12.10,Table tennis 2 hrs,USD,5655,pmt
+44194108,Pet shop,8/26/2021,d,21.10,Shopping,USD,5995,pmt
+38831670,Bank of America,8/27/2021,d,2.20,ATM withdrawal fee,USD,,fee
+59322988,Lidl,8/27/2021,d,32.80,Supermaket shopping,USD,5499,pmt
+64956400,Glovo,8/27/2021,d,25.40,Food delivery,USD,5811,pmt
+46769565,Lending Club,8/27/2021,d,44.20,Loan Payment,USD,,pmt
+25666040,A1 Telecom,8/28/2021,d,17.20,Mobile phone bill,USD,,pmt
+50374360,New York Times,8/28/2021,d,4.70,New York Times,USD,5192,pmt
+85696183,Glovo,8/28/2021,d,25.40,Food delivery,USD,5811,pmt
+69950535,Pet salon Rex,8/28/2021,d,10.60,Grooming,USD,,pmt
+46698487,Glovo,9/1/2021,d,19.10,Food delivery,USD,5811,pmt
+35746907,Save our kids,9/1/2021,d,91.70,Charity,USD,,pmt
+37384667,Gerber Products Company,9/1/2021,d,79.10,Baby wardrobe,USD,,pmt
+70061986,Serenity Wellnes,9/1/2021,d,21.30,Spa treatment,USD,8050,pmt
+52403046,Serenity Wellnes,9/1/2021,d,21.10,Massage,USD,8050,pmt
+65487464,Adobe,9/1/2021,d,16.40,Games,USD,5045,pmt
+73218465,Visa,9/1/2021,d,33.90,Pay with Visa,USD,,pmt
+60304957,City parkings,9/2/2021,d,2.30,Parking fee,USD,7523,pmt
+16506265,Precision Optics,9/2/2021,d,125.50,Sun glasses,USD,,pmt
+27105360,Lily,9/2/2021,d,33.50,Medicine,USD,5912,pmt
+77374230,Karate club,9/2/2021,d,26.20,Membership,USD,,pmt
+44481097,Shell,9/3/2021,d,105.90,Gasoline purchases,USD,5983,pmt
+18052882,A1 Telecom,9/3/2021,d,17.10,Mobile phone bill,USD,,pmt
+35567490,Glovo,9/3/2021,d,25.00,Food delivery,USD,5811,pmt
+75565411,Johnson & Johnson,9/3/2021,d,80.10,Baby nursery,USD,,pmt
+70502723,Electro distribution,9/4/2021,d,77.60,Utilities payment,USD,,pmt
+84738791,Glovo,9/4/2021,d,40.50,Food delivery,USD,5811,pmt
+34485388,Protetcta,9/4/2021,d,24.00,Doctor's appointment,USD,8011,pmt
+62748919,Asseco,9/4/2021,c,"2,497.60",Salary,USD,,sal
+12341904,A1 Telecom,9/5/2021,d,27.60,Internet bill,USD,,pmt
+62460917,Lidl,9/5/2021,d,39.60,Supermaket shopping,USD,5499,pmt
+79358545,Raiffeisen Leasing,9/6/2021,d,450.60,Financial leasing,USD,7394,pmt
+26037089,Comcast,9/6/2021,d,11.80,Television bill,USD,,pmt
+41661527,Hulu,9/6/2021,d,10.60,Netflix subscription,USD,,pmt
+35431913,Private consulting co,9/6/2021,c,773.80,Cryptocurrency sales,USD,,dep
+18794635,T-Mobile,9/7/2021,d,16.90,Mobile phone bill,USD,,pmt
+65126953,Bank of America,9/7/2021,d,4.80,Online banking fee,USD,,fee
+24743691,Revolut,9/7/2021,d,5.90,Online banking fee,USD,,fee
+30829925,Glovo,9/7/2021,d,40.50,Food delivery,USD,5811,pmt
+75906428,Glovo,9/7/2021,d,33.10,Food delivery,USD,5811,pmt
+54550411,Glovo,9/7/2021,d,27.20,Food delivery,USD,5811,pmt
+52981902,Swimming school,9/7/2021,d,23.80,Membership,USD,,pmt
+17603597,Blue moon spa,9/7/2021,d,21.60,Spa treatment,USD,8050,pmt
+82009773,Glovo,9/8/2021,d,20.30,Food delivery,USD,5811,pmt
+20133283,Wolt,9/8/2021,d,47.00,Food delivery,USD,5811,pmt
+13907913,Delhaize,9/8/2021,d,81.30,Supermaket shopping,USD,5200,pmt
+83786736,Pet hotel Happy Dog,9/8/2021,d,100.70,Monthly stay,USD,5995,pmt
+74907364,Wolt,9/9/2021,d,15.80,Food delivery,USD,5811,pmt
+51689818,Fit and Fun,9/9/2021,d,28.50,Gym membership,USD,,pmt
+45153700,Fit and Fun,9/9/2021,d,28.40,Gym membership,USD,,pmt
+40261513,Claire Stevens,9/9/2021,c,300.80,Monthly rent,USD,,dep
+51452231,Book depository,9/10/2021,d,12.60,Amazon Kindle subscription,USD,,pmt
+42710441,Spotify,9/10/2021,d,15.30,Spotify premium subscription,USD,5733,pmt
+14946456,Lidl,9/10/2021,d,33.70,Supermaket shopping,USD,5499,pmt
+55989567,Fit and Fun,9/10/2021,d,23.50,Personal trainer,USD,,pmt
+25468057,R-Pharm,9/10/2021,d,33.20,Home care,USD,5912,pmt
+51385470,A1 Telecom,9/11/2021,d,6.20,Phone bill,USD,,pmt
+13776086,Glovo,9/11/2021,d,51.00,Food delivery,USD,5811,pmt
+18310268,Wolt,9/11/2021,d,23.10,Food delivery,USD,5811,pmt
+57430900,Glovo,9/11/2021,d,39.70,Food delivery,USD,5811,pmt
+20119018,Pet hotel Happy Dog,9/11/2021,d,100.10,Monthly stay,USD,5995,pmt
+17079478,Bank of America,9/12/2021,d,2.80,ATM withdrawal fee,USD,,fee
+42270338,Wolt,9/12/2021,d,49.20,Food delivery,USD,5811,pmt
+54105405,Glovo,9/12/2021,d,38.30,Food delivery,USD,5811,pmt
+18400415,MasterCard,9/13/2021,d,79.30,Pay with Visa,USD,,pmt
+84468698,,9/14/2021,d,291.20,ATM withdrawal,USD,,wdw
+33842223,Electro distribution,9/14/2021,d,76.40,Utilities payment,USD,,pmt
+22914665,National Geographic,9/15/2021,d,5.80,New York Times,USD,5192,pmt
+23687436,Glovo,9/15/2021,d,49.70,Food delivery,USD,5811,pmt
+43969713,Connexus,9/15/2021,d,400.80,Mortgage pay,USD,,pmt
+80943502,Coinbase,9/16/2021,c,977.50,Cryptocurrency sales,USD,,dep
+36095133,Book depository,9/17/2021,d,11.30,Book,USD,,pmt
+28438926,Revolut,9/17/2021,d,3.70,Revolut Silver subscription,USD,,fee
+38223295,Wolt,9/17/2021,d,19.40,Food delivery,USD,5811,pmt
+85822229,Wolt,9/17/2021,d,36.10,Food delivery,USD,5811,pmt
+38081007,Wolt,9/17/2021,d,45.10,Food delivery,USD,5811,pmt
+73611126,Blue moon spa,9/17/2021,d,25.10,Spa treatment,USD,8050,pmt
+72617432,Pet store,9/17/2021,d,23.80,Shopping,USD,5995,pmt
+30005272,A1 Telecom,9/18/2021,d,18.40,Mobile phone bill,USD,,pmt
+32891413,City parkings,9/19/2021,d,1.30,Parking fee,USD,7523,pmt
+62728791,Lidl,9/19/2021,d,37.90,Supermaket shopping,USD,5499,pmt
+35897484,Glovo,9/19/2021,d,32.70,Food delivery,USD,5811,pmt
+77063158,Josh,9/19/2021,d,35.30,Allowance,USD,,pmt
+73634659,Delhaize,9/20/2021,d,40.10,Supermaket shopping,USD,5499,pmt
+13309495,Glovo,9/20/2021,d,28.50,Food delivery,USD,5811,pmt
+51850161,Wolt,9/20/2021,d,19.60,Food delivery,USD,5811,pmt
+55000954,Glovo,9/20/2021,d,34.10,Food delivery,USD,5811,pmt
+32425141,Emmezeta,9/20/2021,d,42.00,Furniture,USD,5712,pmt
+42133993,Intersport,9/20/2021,d,131.50,Basketball,USD,5941,pmt
+38573776,T-Mobile,9/21/2021,d,14.40,Mobile phone bill,USD,,pmt
+62376166,Revolut,9/21/2021,d,6.30,Revolut Silver subscription,USD,,fee
+73429464,Wolt,9/21/2021,d,20.50,Food delivery,USD,5811,pmt
+39573433,Wolt,9/21/2021,d,51.00,Food delivery,USD,5811,pmt
+27329787,Glovo,9/21/2021,d,49.10,Food delivery,USD,5811,pmt
+22332965,Generali,9/21/2021,d,45.10,Extended health insurance,USD,,pmt
+69296761,Visa,9/22/2021,d,66.20,Pay with Mastercard,USD,,pmt
+32255175,Netflix,9/23/2021,d,7.30,Hulu subscription,USD,,pmt
+66010387,Glovo,9/23/2021,d,20.20,Food delivery,USD,5811,pmt
+15553657,Wolt,9/23/2021,d,19.20,Food delivery,USD,5811,pmt
+88805298,Gerber Products Company,9/23/2021,d,101.00,Baby wardrobe,USD,,pmt
+47836243,"Auto registration agency ""Sport""",9/24/2021,d,214.10,Car wash with waxing,USD,7542,pmt
+80694895,T-Mobile,9/24/2021,d,20.90,Mobile phone bill,USD,,pmt
+62332295,Delhaize,9/24/2021,d,31.60,Supermaket shopping,USD,5499,pmt
+14181379,Wolt,9/24/2021,d,23.40,Food delivery,USD,5811,pmt
+56796132,Wolt,9/24/2021,d,36.40,Food delivery,USD,5811,pmt
+54666733,MetLife,9/25/2021,d,200.10,Life insurance premium,USD,6300,pmt
+85911630,Wolt,9/25/2021,d,18.80,Food delivery,USD,5811,pmt
+48087796,Raiffeisen Leasing,9/26/2021,d,450.30,Financial leasing,USD,7394,pmt
+23654702,Delhaize,9/26/2021,d,33.80,Supermaket shopping,USD,5499,pmt
+66280681,T-Mobile,9/27/2021,d,15.20,Mobile phone bill,USD,,pmt
+28718229,Glovo,9/27/2021,d,32.60,Food delivery,USD,5811,pmt
+63079325,Tele9,9/28/2021,d,13.80,Television bill,USD,,pmt
+37082520,Glovo,9/28/2021,d,31.20,Food delivery,USD,5811,pmt
+10549898,Delhaize,9/28/2021,d,94.70,Supermaket shopping,USD,5200,pmt
+17441792,Pet salon Rex,9/28/2021,d,10.50,Grooming,USD,,pmt
+31454690,Glovo,10/1/2021,d,17.00,Food delivery,USD,5811,pmt
+29218165,Karate club,10/1/2021,d,22.50,Club membership,USD,,pmt
+56263795,Swimming school,10/1/2021,d,25.60,Club membership,USD,,pmt
+25343631,Pet salon Rex,10/1/2021,d,10.50,Grooming,USD,,pmt
+36857155,MasterCard,10/1/2021,d,44.60,Pay with Visa,USD,,pmt
+15179953,T-Mobile,10/2/2021,d,14.80,Mobile phone bill,USD,,pmt
+41990408,Bank of America,10/2/2021,d,12.20,Late fee,USD,,fee
+64704112,Wolt,10/2/2021,d,42.60,Food delivery,USD,5811,pmt
+45573282,Wolt,10/2/2021,d,32.50,Food delivery,USD,5811,pmt
+84685491,Asseco,10/2/2021,c,"2,329.70",Salary,USD,,sal
+72046445,City parkings,10/3/2021,d,1.20,Parking fee,USD,7523,pmt
+60674642,Coinbase,10/3/2021,c,835.40,Project based fee,USD,,dep
+78578537,Lidl,10/4/2021,d,33.80,Supermaket shopping,USD,5499,pmt
+48381512,Delhaize,10/4/2021,d,31.00,Supermaket shopping,USD,5499,pmt
+64783618,Glovo,10/4/2021,d,45.20,Food delivery,USD,5811,pmt
+51869487,Amazon,10/5/2021,d,17.40,Amazon Kindle subscription,USD,,pmt
+10569953,Wolt,10/5/2021,d,43.10,Food delivery,USD,5811,pmt
+64570414,Wolt,10/5/2021,d,35.80,Food delivery,USD,5811,pmt
+89730748,Lidl,10/6/2021,d,39.10,Supermaket shopping,USD,5499,pmt
+74502677,Wolt,10/6/2021,d,24.90,Food delivery,USD,5811,pmt
+89152762,Wolt,10/6/2021,d,26.40,Food delivery,USD,5811,pmt
+28801699,Table tenis club PingPong,10/6/2021,d,10.60,Table tennis 2 hrs,USD,5655,pmt
+47521445,,10/7/2021,d,256.30,ATM withdrawal,USD,,wdw
+18644716,Raiffeisen Leasing,10/7/2021,d,450.10,Financial leasing,USD,7394,pmt
+19616194,Orange,10/7/2021,d,21.80,Internet bill,USD,,pmt
+85764195,Glovo,10/7/2021,d,19.20,Food delivery,USD,5811,pmt
+86224596,Asseco,10/7/2021,c,"2,494.20",Salary,USD,,sal
+45419440,Karate club,10/8/2021,d,20.20,Club membership,USD,,pmt
+30305697,Earnest,10/8/2021,d,8.50,Charge pay,USD,,fee
+58976045,Heating,10/9/2021,d,80.10,Utilities payment,USD,,pmt
+15721708,Music school,10/9/2021,d,176.30,Tuition,USD,8299,pmt
+34041787,Connexus,10/9/2021,d,400.10,Rent pay,USD,,pmt
+20480868,Johnson & Johnson,10/9/2021,d,69.80,Baby nursery,USD,,pmt
+62219630,Pet hotel Happy Dog,10/9/2021,d,100.60,Monthly stay,USD,5995,pmt
+38678838,Wolt,10/10/2021,d,33.70,Food delivery,USD,5811,pmt
+55142815,Homeowners Insurance,10/10/2021,d,45.00,Home,USD,,pmt
+15799125,Pet store,10/10/2021,d,22.00,Shopping,USD,5995,pmt
+70960727,UniCredit Leasing,10/11/2021,d,450.30,Financial leasing,USD,7394,pmt
+49576581,Heating,10/11/2021,d,59.40,Utilities payment,USD,,pmt
+79146361,Wolt,10/11/2021,d,37.80,Food delivery,USD,5811,pmt
+41251620,Wolt,10/11/2021,d,31.20,Food delivery,USD,5811,pmt
+43619895,Office365,10/11/2021,d,16.70,Games,USD,5045,pmt
+54855887,Orange,10/12/2021,d,5.60,Phone bill,USD,,pmt
+40053033,Heating,10/12/2021,d,97.80,Utilities payment,USD,,pmt
+63189966,Wolt,10/12/2021,d,37.50,Food delivery,USD,5811,pmt
+74857935,Save our kids,10/12/2021,d,56.70,Charity,USD,,pmt
+16410046,Protetcta,10/12/2021,d,27.50,Doctor's appointment,USD,8011,pmt
+54240054,Claire Stevens,10/12/2021,c,300.60,Monthly rent,USD,,dep
+25670793,New York Times,10/13/2021,d,3.60,New York Times,USD,5192,pmt
+16871465,,10/15/2021,d,242.60,ATM withdrawal,USD,,wdw
+14831330,A1 Telecom,10/15/2021,d,34.70,Internet bill,USD,,pmt
+15986259,Tele9,10/15/2021,d,14.50,Television bill,USD,,pmt
+60285486,Lidl,10/15/2021,d,40.50,Supermaket shopping,USD,5499,pmt
+63836126,Lidl,10/15/2021,d,35.20,Supermaket shopping,USD,5499,pmt
+35183593,Table tenis club PingPong,10/15/2021,d,10.80,Table tennis 2 hrs,USD,5655,pmt
+81703532,MasterCard,10/15/2021,d,83.80,Pay with Mastercard,USD,,pmt
+30302164,T-Mobile,10/16/2021,d,14.20,Mobile phone bill,USD,,pmt
+48606693,Connexus,10/16/2021,d,400.60,Rent pay,USD,,pmt
+59377025,Book depository,10/17/2021,d,16.20,Book,USD,,pmt
+76045991,Hulu,10/17/2021,d,9.00,Netflix subscription,USD,,pmt
+71708912,Wolt,10/17/2021,d,28.90,Food delivery,USD,5811,pmt
+65831260,Josh,10/17/2021,d,34.60,Allowance,USD,,pmt
+50776634,DogiZone,10/17/2021,d,32.30,Vaccination,USD,,pmt
+25051010,Glovo,10/18/2021,d,41.30,Food delivery,USD,5811,pmt
+21538025,Chevron,10/19/2021,d,43.40,Gasoline purchases,USD,5983,pmt
+37907095,Hulu,10/19/2021,d,6.80,Netflix subscription,USD,,pmt
+24636611,Jill,10/19/2021,d,41.40,Allowance,USD,,pmt
+66314737,Adobe,10/19/2021,d,11.30,Games,USD,5045,pmt
+69868691,Delhaize,10/20/2021,d,39.70,Supermaket shopping,USD,5499,pmt
+55683973,Wolt,10/20/2021,d,24.70,Food delivery,USD,5811,pmt
+18548250,Home cleaning service,10/20/2021,d,46.50,Cleaning,USD,,pmt
+10108594,Home cleaning service,10/20/2021,d,45.90,Cleaning,USD,,pmt
+87060158,Chevron,10/21/2021,d,60.40,Gasoline purchases,USD,5983,pmt
+69872134,Lidl,10/21/2021,d,39.00,Supermaket shopping,USD,5499,pmt
+71204698,Glovo,10/21/2021,d,45.10,Food delivery,USD,5811,pmt
+84071738,Wolt,10/21/2021,d,18.30,Food delivery,USD,5811,pmt
+60942536,Fit and Fun,10/21/2021,d,29.40,Personal trainer,USD,,pmt
+38480830,Pet shop,10/21/2021,d,25.70,Shopping,USD,5995,pmt
+83894581,A1 Telecom,10/22/2021,d,5.60,Phone bill,USD,,pmt
+33505815,A1 Telecom,10/22/2021,d,24.70,Internet bill,USD,,pmt
+70081297,Glovo,10/22/2021,d,35.50,Food delivery,USD,5811,pmt
+60483499,Orange,10/23/2021,d,25.10,Internet bill,USD,,pmt
+15830107,Book depository,10/23/2021,d,11.50,Book,USD,,pmt
+17360272,New York Times,10/23/2021,d,5.20,National Geographic,USD,5192,pmt
+21392130,Glovo,10/23/2021,d,43.30,Food delivery,USD,5811,pmt
+12912239,The barbers,10/23/2021,d,35.00,Haircut,USD,7230,pmt
+49228660,Shell,10/24/2021,d,77.40,Gasoline purchases,USD,5983,pmt
+78202162,Orange,10/24/2021,d,6.90,Phone bill,USD,,pmt
+73231441,Delhaize,10/26/2021,d,32.00,Supermaket shopping,USD,5499,pmt
+57852212,Glovo,10/26/2021,d,15.70,Food delivery,USD,5811,pmt
+80502762,Wolt,10/26/2021,d,38.90,Food delivery,USD,5811,pmt
+28679831,Wolt,10/26/2021,d,15.10,Food delivery,USD,5811,pmt
+62247645,Wolt,10/27/2021,d,15.10,Food delivery,USD,5811,pmt
+13592768,Coinbase,10/27/2021,c,624.30,Cryptocurrency sales,USD,,dep
+16816038,Josh,10/27/2021,d,39.20,Allowance,USD,,pmt
+47721259,,10/28/2021,d,114.00,ATM withdrawal,USD,,wdw
+67938471,Glovo,10/28/2021,d,48.10,Food delivery,USD,5811,pmt
+59957633,Asseco,10/28/2021,c,"2,499.40",Salary,USD,,sal
+27447845,ToysRUS,10/28/2021,d,49.60,Dolls,USD,5945,pmt
+85783580,Hertz,10/28/2021,d,12.40,Car rent,USD,7519,pmt
+59433187,Glovo,11/1/2021,d,21.60,Food delivery,USD,5811,pmt
+55845532,Sixt GmbH,11/1/2021,d,15.20,Car rent,USD,7519,pmt
+69611262,Glovo,11/2/2021,d,48.70,Food delivery,USD,5811,pmt
+25943368,Chevron,11/3/2021,d,77.10,Gasoline purchases,USD,5983,pmt
+52970552,City parkings,11/3/2021,d,2.20,Parking fee,USD,7523,pmt
+12052308,Orange,11/3/2021,d,20.10,Internet bill,USD,,pmt
+56822011,Glovo,11/3/2021,d,23.00,Food delivery,USD,5811,pmt
+43379314,Wolt,11/3/2021,d,24.00,Food delivery,USD,5811,pmt
+77428861,Glovo,11/3/2021,d,32.10,Food delivery,USD,5811,pmt
+41408537,Wolt,11/4/2021,d,44.90,Food delivery,USD,5811,pmt
+25031271,Springfield,11/4/2021,d,222.80,Fotwear,USD,,pmt
+65566786,Hulu,11/5/2021,d,7.40,Netflix subscription,USD,,pmt
+56523061,Delhaize,11/5/2021,d,97.90,Supermaket shopping,USD,5200,pmt
+26599175,The barbers,11/5/2021,d,27.10,Haircut,USD,7230,pmt
+51145886,Lidl,11/6/2021,d,33.20,Supermaket shopping,USD,5499,pmt
+63172972,PersonalLoans,11/6/2021,d,6.80,Charge pay,USD,,fee
+54053847,Faculty of contemporary arts,11/7/2021,d,158.20,Tuition,USD,8299,pmt
+73137207,Glovo,11/7/2021,d,47.30,Food delivery,USD,5811,pmt
+57536214,Wolt,11/7/2021,d,49.30,Food delivery,USD,5811,pmt
+16012190,Wolt,11/7/2021,d,40.30,Food delivery,USD,5811,pmt
+59812305,Josh,11/8/2021,d,43.80,Allowance,USD,,pmt
+50496538,T-Mobile,11/9/2021,d,13.20,Mobile phone bill,USD,,pmt
+25776549,Table tenis club PingPong,11/9/2021,d,15.30,Daily pool ticket,USD,5655,pmt
+42324432,Connexus,11/9/2021,d,400.50,Rent pay,USD,,pmt
+68385714,City parkings,11/10/2021,d,2.40,Parking fee,USD,7523,pmt
+30780970,City parkings,11/10/2021,d,1.90,Parking fee,USD,7523,pmt
+29043681,Glovo,11/10/2021,d,23.10,Food delivery,USD,5811,pmt
+53262616,Glovo,11/10/2021,d,44.50,Food delivery,USD,5811,pmt
+25644337,Jill,11/10/2021,d,31.80,Allowance,USD,,pmt
+60419284,Barber shop,11/10/2021,d,37.60,Hair dye,USD,7230,pmt
+43610796,Faculty of contemporary arts,11/11/2021,d,183.10,Tuition,USD,8299,pmt
+66515860,New York Times,11/11/2021,d,5.90,New York Times,USD,5192,pmt
+14482560,Pet salon Rex,11/11/2021,d,10.30,Grooming,USD,,pmt
+85847794,Fit and Fun,11/12/2021,d,23.30,Personal trainer,USD,,pmt
+56001337,Home cleaning service,11/12/2021,d,48.30,Cleaning,USD,,pmt
+13375803,Coinbase,11/12/2021,c,628.40,Cryptocurrency sales,USD,,dep
+17210563,Wolt,11/13/2021,d,27.10,Food delivery,USD,5811,pmt
+26373541,Wolt,11/13/2021,d,34.80,Food delivery,USD,5811,pmt
+56960364,Wolt,11/13/2021,d,39.00,Food delivery,USD,5811,pmt
+46974553,Comcast,11/14/2021,d,10.30,Television bill,USD,,pmt
+89753715,Delhaize,11/14/2021,d,39.70,Supermaket shopping,USD,5499,pmt
+19636514,Red Cross,11/14/2021,d,99.70,Charity,USD,,pmt
+68970618,Connexus,11/14/2021,d,400.80,Mortgage pay,USD,,pmt
+84719269,Sixt GmbH,11/14/2021,d,10.50,Car rent,USD,7519,pmt
+66667541,City parkings,11/15/2021,d,2.70,Parking fee,USD,7523,pmt
+38287786,Netflix,11/15/2021,d,9.70,Netflix subscription,USD,,pmt
+67229124,Johnson & Johnson,11/15/2021,d,85.50,Baby wardrobe,USD,,pmt
+87551784,Swimming school,11/15/2021,d,25.90,Club membership,USD,,pmt
+37630799,,11/16/2021,d,295.50,ATM withdrawal,USD,,wdw
+61131546,Glovo,11/16/2021,d,48.80,Food delivery,USD,5811,pmt
+10326647,Jill,11/16/2021,d,50.50,Allowance,USD,,pmt
+74228925,Adobe,11/16/2021,d,12.00,TV,USD,5045,pmt
+10248426,Jill,11/18/2021,d,48.70,Allowance,USD,,pmt
+19847714,Tele9,11/19/2021,d,18.60,Television bill,USD,,pmt
+76183746,Netflix,11/19/2021,d,9.10,Netflix subscription,USD,,pmt
+21129807,PersonalLoans,11/19/2021,d,9.60,Charge pay,USD,,fee
+56653638,,11/20/2021,d,134.00,ATM withdrawal,USD,,wdw
+33106431,,11/20/2021,d,221.70,ATM withdrawal,USD,,wdw
+18068621,Delhaize,11/20/2021,d,33.90,Supermaket shopping,USD,5499,pmt
+80237628,Wolt,11/20/2021,d,21.70,Food delivery,USD,5811,pmt
+48710983,A1 Telecom,11/21/2021,d,20.90,Mobile phone bill,USD,,pmt
+85015410,Delhaize,11/21/2021,d,40.50,Supermaket shopping,USD,5499,pmt
+46155679,Wolt,11/21/2021,d,38.80,Food delivery,USD,5811,pmt
+42342810,Generali,11/21/2021,d,45.50,Extended health insurance,USD,,pmt
+27739718,Office365,11/21/2021,d,17.10,TV,USD,5045,pmt
+34686440,Heating,11/22/2021,d,98.10,Utilities payment,USD,,pmt
+28111114,Bank of America,11/22/2021,d,3.50,ATM withdrawal fee,USD,,fee
+80728462,Revolut,11/22/2021,d,3.40,Revolut Silver subscription,USD,,fee
+33623005,Glovo,11/22/2021,d,37.40,Food delivery,USD,5811,pmt
+38194569,Wolt,11/22/2021,d,50.60,Food delivery,USD,5811,pmt
+36801838,Wolt,11/22/2021,d,34.90,Food delivery,USD,5811,pmt
+84394274,Protetcta,11/22/2021,d,17.50,Doctor's appointment,USD,8011,pmt
+55791400,Hertz,11/22/2021,d,15.80,Taxi,USD,7519,pmt
+53688672,City parkings,11/23/2021,d,1.90,Parking fee,USD,7523,pmt
+61653623,Orange,11/23/2021,d,27.00,Internet bill,USD,,pmt
+59194264,A1 Telecom,11/23/2021,d,19.20,Mobile phone bill,USD,,pmt
+13485416,Delhaize,11/23/2021,d,33.00,Supermaket shopping,USD,5499,pmt
+79801658,Glovo,11/23/2021,d,50.90,Food delivery,USD,5811,pmt
+27035641,Glovo,11/23/2021,d,19.20,Food delivery,USD,5811,pmt
+19243824,Lily,11/23/2021,d,30.70,Medicine,USD,5912,pmt
+87415014,Bank of America,11/24/2021,d,5.80,ATM withdrawal fee,USD,,fee
+85157558,Lidl,11/25/2021,d,40.10,Supermaket shopping,USD,5499,pmt
+68396471,Glovo,11/25/2021,d,15.80,Food delivery,USD,5811,pmt
+42663079,Wolt,11/25/2021,d,24.60,Food delivery,USD,5811,pmt
+34782681,Pet salon Rex,11/25/2021,d,10.90,Grooming,USD,,pmt
+16071863,Lidl,11/26/2021,d,33.70,Supermaket shopping,USD,5499,pmt
+26973873,Glovo,11/26/2021,d,48.90,Food delivery,USD,5811,pmt
+56719085,City parkings,11/27/2021,d,1.70,Parking fee,USD,7523,pmt
+52785288,Tele9,11/27/2021,d,15.70,Television bill,USD,,pmt
+82557584,Glovo,11/27/2021,d,16.10,Food delivery,USD,5811,pmt
+16041598,Glovo,11/27/2021,d,31.10,Food delivery,USD,5811,pmt
+36003414,Glovo,11/27/2021,d,35.90,Food delivery,USD,5811,pmt
+40275245,Wolt,11/27/2021,d,42.60,Food delivery,USD,5811,pmt
+48182784,Medigroup,11/28/2021,d,56.20,General Practitioner,USD,8011,pmt
+72734640,Swimming pool Activa,11/28/2021,d,12.40,Daily pool ticket,USD,5655,pmt
+86045078,Johnson & Johnson,11/28/2021,d,81.00,Baby nursery,USD,,pmt
+67266572,Swimming school,11/28/2021,d,25.20,Club membership,USD,,pmt
+21806306,Wolt,12/1/2021,d,20.70,Food delivery,USD,5811,pmt
+34941181,Glovo,12/1/2021,d,36.60,Food delivery,USD,5811,pmt
+59869789,Lily,12/1/2021,d,39.50,Medicine,USD,5912,pmt
+62184132,Home cleaning service,12/1/2021,d,47.50,Cleaning,USD,,pmt
+87110956,Lending Club,12/1/2021,d,70.10,Loan Payment,USD,,pmt
+84802909,Lidl,12/2/2021,d,36.30,Supermaket shopping,USD,5499,pmt
+21579385,Glovo,12/2/2021,d,44.70,Food delivery,USD,5811,pmt
+75618674,Generali,12/2/2021,d,45.10,Extended health insurance,USD,,pmt
+30612835,Bank of America,12/3/2021,d,4.00,ATM withdrawal fee,USD,,fee
+35067897,Bank of America,12/3/2021,d,5.70,ATM withdrawal fee,USD,,fee
+36900893,Glovo,12/3/2021,d,39.20,Food delivery,USD,5811,pmt
+51239393,Gerber Products Company,12/3/2021,d,52.40,Baby wardrobe,USD,,pmt
+71761727,Serenity Wellnes,12/3/2021,d,23.10,Spa treatment,USD,8050,pmt
+60255138,City parkings,12/4/2021,d,1.90,Parking fee,USD,7523,pmt
+84630285,Revolut,12/4/2021,d,2.80,ATM withdrawal fee,USD,,fee
+69142233,Wolt,12/4/2021,d,47.70,Food delivery,USD,5811,pmt
+46237893,Wolt,12/5/2021,d,46.40,Food delivery,USD,5811,pmt
+39165382,Glovo,12/5/2021,d,28.80,Food delivery,USD,5811,pmt
+20078149,Wolt,12/5/2021,d,28.30,Food delivery,USD,5811,pmt
+26383748,Book depository,12/6/2021,d,17.20,Book,USD,,pmt
+42051150,Delhaize,12/6/2021,d,35.20,Supermaket shopping,USD,5499,pmt
+11522708,Glovo,12/6/2021,d,44.60,Food delivery,USD,5811,pmt
+40315975,Glovo,12/6/2021,d,31.20,Food delivery,USD,5811,pmt
+76584333,Wolt,12/6/2021,d,41.50,Food delivery,USD,5811,pmt
+65815632,Wolt,12/6/2021,d,37.60,Food delivery,USD,5811,pmt
+40236657,Medigroup,12/6/2021,d,48.10,Specialist,USD,8011,pmt
+63296671,Revolut,12/7/2021,d,3.20,ATM withdrawal fee,USD,,fee
+70413225,Delhaize,12/7/2021,d,40.00,Supermaket shopping,USD,5499,pmt
+52600204,Table tenis club PingPong,12/7/2021,d,15.20,Daily pool ticket,USD,5655,pmt
+17470795,Earnest,12/7/2021,d,15.80,Charge pay,USD,,fee
+57453138,T-Mobile,12/8/2021,d,12.60,Mobile phone bill,USD,,pmt
+50183941,Bank of America,12/8/2021,d,7.60,Online banking fee,USD,,fee
+15267535,Glovo,12/8/2021,d,36.60,Food delivery,USD,5811,pmt
+58046641,Wolt,12/8/2021,d,20.70,Food delivery,USD,5811,pmt
+21856282,Revolut,12/9/2021,d,3.90,ATM withdrawal fee,USD,,fee
+24623757,Glovo,12/9/2021,d,43.50,Food delivery,USD,5811,pmt
+49287421,City parkings,12/10/2021,d,1.10,Parking fee,USD,7523,pmt
+54857125,A1 Telecom,12/10/2021,d,12.10,Mobile phone bill,USD,,pmt
+47152441,Netflix,12/11/2021,d,9.20,Hulu subscription,USD,,pmt
+57327406,Wolt,12/11/2021,d,46.90,Food delivery,USD,5811,pmt
+37054139,Lego,12/11/2021,d,27.20,Action Figures,USD,5945,pmt
+15187916,The barbers,12/11/2021,d,25.30,Haircut,USD,7230,pmt
+77984990,Serenity Wellnes,12/11/2021,d,24.30,Massage,USD,8050,pmt
+68755095,Glovo,12/12/2021,d,44.60,Food delivery,USD,5811,pmt
+82392179,Glovo,12/12/2021,d,24.20,Food delivery,USD,5811,pmt
+36192049,Wolt,12/12/2021,d,35.30,Food delivery,USD,5811,pmt
+33092630,Red Cross,12/12/2021,d,48.90,Charity,USD,,pmt
+84544546,Dental Plus,12/12/2021,d,26.40,Doctor's appointment,USD,8011,pmt
+61657063,Home cleaning service,12/12/2021,d,45.40,Cleaning,USD,,pmt
+38585832,Private consulting co,12/12/2021,c,776.20,Project based fee,USD,,dep
+20667289,Amazon,12/13/2021,d,16.00,Amazon Kindle subscription,USD,,pmt
+35439980,Netflix,12/13/2021,d,5.10,Hulu subscription,USD,,pmt
+28976696,Wolt,12/13/2021,d,50.60,Food delivery,USD,5811,pmt
+77386769,Fit and Fun,12/13/2021,d,24.10,Gym membership,USD,,pmt
+62163515,Lidl,12/13/2021,d,94.40,Supermaket shopping,USD,5200,pmt
+29576441,Bank of America,12/14/2021,d,4.00,ATM withdrawal fee,USD,,fee
+50478161,Johnson & Johnson,12/14/2021,d,43.20,Baby nursery,USD,,pmt
+31000600,Amazon,12/15/2021,d,13.50,Book,USD,,pmt
+31662178,Glovo,12/15/2021,d,26.70,Food delivery,USD,5811,pmt
+48442765,Glovo,12/15/2021,d,16.70,Food delivery,USD,5811,pmt
+49676911,Pet hotel Happy Dog,12/15/2021,d,100.10,Monthly stay,USD,5995,pmt
+57484714,Tele9,12/16/2021,d,19.00,Television bill,USD,,pmt
+48918075,Wolt,12/16/2021,d,34.70,Food delivery,USD,5811,pmt
+51528621,Wolt,12/16/2021,d,20.40,Food delivery,USD,5811,pmt
+33494785,Home cleaning service,12/16/2021,d,47.30,Cleaning,USD,,pmt
+31635942,Adobe,12/16/2021,d,11.20,Games,USD,5045,pmt
+54157087,Real Estate,12/16/2021,d,157.00,Tax pay,USD,9311,pmt
+33377022,Electro distribution,12/17/2021,d,66.30,Utilities payment,USD,,pmt
+61972330,Glovo,12/17/2021,d,43.80,Food delivery,USD,5811,pmt
+12912046,Generali,12/17/2021,d,45.10,Extended health insurance,USD,,pmt
+61683793,Hertz,12/17/2021,d,14.70,Taxi,USD,7519,pmt
+69139972,Wolt,12/18/2021,d,30.10,Food delivery,USD,5811,pmt
+45046317,Glovo,12/18/2021,d,21.30,Food delivery,USD,5811,pmt
+48755533,Residential Property,12/18/2021,d,166.20,Tax pay,USD,9311,pmt
+30997470,Faculty of contemporary arts,12/19/2021,d,181.00,Tuition,USD,8299,pmt
+43336057,Lidl,12/19/2021,d,38.50,Supermaket shopping,USD,5499,pmt
+42051784,Wolt,12/19/2021,d,23.20,Food delivery,USD,5811,pmt
+46321805,Wolt,12/19/2021,d,22.00,Food delivery,USD,5811,pmt
+12391398,Lidl,12/19/2021,d,99.80,Supermaket shopping,USD,5200,pmt
+89107412,Pet shop,12/19/2021,d,22.60,Shopping,USD,5995,pmt
+19124644,Generali,12/20/2021,d,45.10,Extended health insurance,USD,,pmt
+50836882,Lidl,12/20/2021,d,92.20,Supermaket shopping,USD,5200,pmt
+79671913,Asseco,12/20/2021,c,"2,458.40",Salary,USD,,sal
+25268458,City parkings,12/21/2021,d,2.50,Parking fee,USD,7523,pmt
+79644229,New York Times,12/21/2021,d,3.60,New York Times,USD,5192,pmt
+32283888,Glovo,12/21/2021,d,23.80,Food delivery,USD,5811,pmt
+58556632,Wolt,12/21/2021,d,30.00,Food delivery,USD,5811,pmt
+69706266,Serenity Wellnes,12/22/2021,d,23.70,Spa treatment,USD,8050,pmt
+41864438,City parkings,12/23/2021,d,2.10,Parking fee,USD,7523,pmt
+66909495,Book depository,12/23/2021,d,14.20,Book,USD,,pmt
+39175391,Save our kids,12/23/2021,d,26.30,Charity,USD,,pmt
+53061796,Dental Plus,12/23/2021,d,29.90,Doctor's appointment,USD,8011,pmt
+67939217,City parkings,12/24/2021,d,1.20,Parking fee,USD,7523,pmt
+50196265,Table tenis club PingPong,12/24/2021,d,15.10,Daily pool ticket,USD,5655,pmt
+61252646,City parkings,12/25/2021,d,2.40,Parking fee,USD,7523,pmt
+89154942,Glovo,12/25/2021,d,43.80,Food delivery,USD,5811,pmt
+46433318,Heating,12/26/2021,d,48.40,Utilities payment,USD,,pmt
+55606973,MetLife,12/26/2021,d,200.50,Life insurance premium,USD,6300,pmt
+35220328,R-Pharm,12/26/2021,d,38.70,Home care,USD,5912,pmt
+78008116,Lending Club,12/26/2021,d,61.80,Loan Payment,USD,,pmt
+35924168,Hooters Air,12/26/2021,d,504.00,Ticket pay,USD,,pmt
+57650239,Glovo,12/27/2021,d,19.10,Food delivery,USD,5811,pmt
+85566023,Wolt,12/27/2021,d,28.20,Food delivery,USD,5811,pmt
+48623663,Fit and Fun,12/27/2021,d,30.30,Gym membership,USD,,pmt
+81883425,Blue moon spa,12/27/2021,d,24.10,Massage,USD,8050,pmt
+52174379,City parkings,12/28/2021,d,1.20,Parking fee,USD,7523,pmt
+20249039,Gift shop,12/28/2021,d,108.90,Birthday gifts,USD,5947,pmt
+33401399,Adobe,12/28/2021,d,12.60,TV,USD,5045,pmt

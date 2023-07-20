@@ -24,12 +24,13 @@ namespace PFM_AseeInternship.Controllers
             var transactions = await _transactionService.GetTransactions(transactionKind, startDate, endDate, page, pageSize, sortBy, sortOrder);
             return Ok(transactions);
         }
-        
+
 
         //  TODO: ODRADITI PROSLEDJENE VREDNOSTI
         [HttpPost("import")]
         public IActionResult importTransactions()
         {
+            _transactionService.ImportTransactions();
             return Ok();
         }
 

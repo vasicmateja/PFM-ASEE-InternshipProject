@@ -6,7 +6,7 @@ namespace PFM_AseeInternship.Mappers
 {
     public class AutoMapperProfile : Profile 
     {
-        protected AutoMapperProfile() {
+        public AutoMapperProfile() {
             CreateMap<TransactionEntity, Transaction>().ForMember( transaction => transaction.TransactionId, entity => entity.MapFrom(x => x.Id));
 
             CreateMap<Transaction, TransactionEntity>().ForMember(transaction => transaction.Id, entity => entity.MapFrom(x => x.TransactionId));
