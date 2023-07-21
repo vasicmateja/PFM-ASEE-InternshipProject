@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using PFM_AseeInternship.DataBase.Entities;
 using PFM_AseeInternship.Models;
+using System.Xml.Linq;
 
 namespace PFM_AseeInternship.DataBase.Repositories.Implementation
 {
@@ -68,10 +69,47 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
 
             TransactionEntity transaction = new TransactionEntity();
 
-            ///TODO OVDE IMPUT ODRADITI
-           
-            var query = _db.Transactions.Add(transaction);
+            using (var reader = new StreamReader("Utils\\transactions.csv"))
+            {
+                int a = 0;
 
+                while (!reader.EndOfStream)
+                {
+                    var line = reader.ReadLine();
+                    var values = line.Split(',');
+
+                    if (a == 0)
+                    {
+                        //OVDE MOZEMO HANDLOVATI PROVERU ZA FAJL
+                        continue;
+                    }
+                    a++;
+
+                    transaction.Id = int.Parse(values[0]);
+                    transaction.BeneficiaryName = values[1];
+                    transaction.Date = values[2];
+                    if (values[3].Equals("c"))
+                    {
+                        transaction.Direction = Directions.c;
+                    }
+                    else if (values[3].Equals("d"))
+                    {
+                        transaction.Direction = Directions.d;
+                    }
+                    else
+                    {
+                        //TODO GRESKA 
+                    }
+
+                    transaction.Amount = double.Parse(values[4]);
+                    transaction.Description = values[5];
+                    transaction.Currency = values[6];
+                    transaction.MccCode = values[7];
+                    transaction.Kind = Enum.Parse<KindEnum>(values[8]);
+
+                    var query = _db.Transactions.Add(transaction);
+                }
+            }
             
         }
     }

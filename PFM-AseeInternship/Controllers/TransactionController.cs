@@ -21,7 +21,9 @@ namespace PFM_AseeInternship.Controllers
         public async Task<IActionResult> GetTransactionsAsync([FromQuery] string transactionKind, [FromQuery] string? startDate, [FromQuery] string? endDate
             , [FromQuery] int page = 1, [FromQuery] int pageSize = 10, [FromQuery] string? sortBy    = null, [FromQuery] SortOrder sortOrder = SortOrder.asc) 
         {
+            Console.WriteLine("        TEST TEST TEST            ");
             var transactions = await _transactionService.GetTransactions(transactionKind, startDate, endDate, page, pageSize, sortBy, sortOrder);
+            
             return Ok(transactions);
         }
 
