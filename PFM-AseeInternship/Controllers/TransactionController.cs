@@ -4,8 +4,8 @@ using PFM_AseeInternship.Services;
 
 namespace PFM_AseeInternship.Controllers
 {
-    [ApiController]
     [Route("v1/transactions")]
+    [ApiController]
     public class TransactionController : ControllerBase
     {
         TransactionService _transactionService;
@@ -21,14 +21,15 @@ namespace PFM_AseeInternship.Controllers
         public async Task<IActionResult> GetTransactionsAsync([FromQuery] string transactionKind, [FromQuery] string? startDate, [FromQuery] string? endDate
             , [FromQuery] int page = 1, [FromQuery] int pageSize = 10, [FromQuery] string? sortBy    = null, [FromQuery] SortOrder sortOrder = SortOrder.asc) 
         {
-            Console.WriteLine("        TEST TEST TEST            ");
-            var transactions = await _transactionService.GetTransactions(transactionKind, startDate, endDate, page, pageSize, sortBy, sortOrder);
+            page = 1;
+            pageSize = 10;
+            _logger.LogInformation("Returning {page}. of transactions", page);
+            var result = await _transactionService.GetTransactions(transactionKind, startDate, endDate, page, pageSize, sortBy, sortOrder);
             
-            return Ok(transactions);
+            return Ok(result);
         }
 
 
-        //  TODO: ODRADITI PROSLEDJENE VREDNOSTI
         [HttpPost("import")]
         public IActionResult importTransactions()
         {

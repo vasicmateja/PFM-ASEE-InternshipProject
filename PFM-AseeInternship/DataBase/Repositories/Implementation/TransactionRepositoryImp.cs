@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using PFM_AseeInternship.DataBase.Entities;
 using PFM_AseeInternship.Models;
-using System.Xml.Linq;
 
 namespace PFM_AseeInternship.DataBase.Repositories.Implementation
 {
@@ -11,7 +10,7 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
 
         public TransactionDbContext Db { get { return _db; } }
 
-        public async Task<TransacitonPageSortedList<TransactionEntity>> GetTransactions(string transactionKind, string? startDate, string? endDate, int page = 1, int pageSize = 10, string? sortBy = null, SortOrder sortOrder = SortOrder.asc)
+        public async Task<TransacitonPageSortedList<TransactionEntity>> List(string transactionKind, string? startDate, string? endDate, int page = 1, int pageSize = 10, string? sortBy = null, SortOrder sortOrder = SortOrder.asc)
         {
             var query = _db.Transactions.AsQueryable();
             var totalCount = query.Count();
