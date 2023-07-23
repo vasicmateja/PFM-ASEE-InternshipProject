@@ -17,8 +17,8 @@
       "applicationUrl": "http://localhost:5006",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
-        "DATABASE_USERNAME": "123",
-        "DATABASE_PASSWORD": "123",
+        "DATABASE_USERNAME": "sa",
+        "DATABASE_PASSWORD": "Password123#",
         "DATABASE_NAME": "transactions",
         "DATABASE_PORT": "5432",
         "DATABASE_HOST": "localhost"

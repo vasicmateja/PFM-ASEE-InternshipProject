@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Npgsql;
 using PFM_AseeInternship.DataBase.Entities;
 using PFM_AseeInternship.Models;
 
@@ -6,12 +7,17 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
 {
     public class TransactionRepositoryImp : TransactionRepository
     {
-        TransactionDbContext _db;
+        private readonly TransactionDbContext _db;
 
-        public TransactionDbContext Db { get { return _db; } }
+        public TransactionRepositoryImp(TransactionDbContext db)
+        {
+            _db = db;
+        }
 
         public async Task<TransacitonPageSortedList<TransactionEntity>> List(string transactionKind, string? startDate, string? endDate, int page = 1, int pageSize = 10, string? sortBy = null, SortOrder sortOrder = SortOrder.asc)
         {
+          
+
             var query = _db.Transactions.AsQueryable();
             var totalCount = query.Count();
             var totalPages = (int)Math.Ceiling(totalCount / pageSize * 1.0);
@@ -63,17 +69,18 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
             };
         }
 
-        public void ImportTransactions()
+        public async void ImportTransactions()
         {
 
             TransactionEntity transaction = new TransactionEntity();
 
-            using (var reader = new StreamReader("Utils\\transactions.csv"))
+            using (var reader = new StreamReader("C:\\Users\\vasic\\source\\repos\\PFM-AseeInternship\\PFM-AseeInternship\\Utils\\transactions.csv"))
             {
-                int a = 0;
+                int a = -1;
 
                 while (!reader.EndOfStream)
                 {
+                    a++;
                     var line = reader.ReadLine();
                     var values = line.Split(',');
 
@@ -82,7 +89,7 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
                         //OVDE MOZEMO HANDLOVATI PROVERU ZA FAJL
                         continue;
                     }
-                    a++;
+                    
 
                     transaction.Id = int.Parse(values[0]);
                     transaction.BeneficiaryName = values[1];
@@ -100,14 +107,33 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
                         //TODO GRESKA 
                     }
 
-                    transaction.Amount = double.Parse(values[4]);
+                    if (int.TryParse(values[4], out int amount))
+                    {
+                        transaction.Amount = amount * 1.0;
+                    }
+                    else
+                    {
+                        // Greska pri parsiranju amount
+                    }
+
                     transaction.Description = values[5];
                     transaction.Currency = values[6];
                     transaction.MccCode = values[7];
-                    transaction.Kind = Enum.Parse<KindEnum>(values[8]);
+                    if (Enum.IsDefined(typeof(KindEnum), values[8]))
+                    {
+                        transaction.Kind = Enum.Parse<KindEnum>(values[8]);
+                    }
+                    else
+                    {
+                        // Neispravna vrednost za KindEnum
+                        // Postupiti u skladu sa potrebama aplikacije (npr. postaviti podrazumevanu vrednost, baciti izuzetak, itd.)
+                    }
+
 
                     var query = _db.Transactions.Add(transaction);
+                    
                 }
+                // _db.SaveChangesAsync();
             }
             
         }

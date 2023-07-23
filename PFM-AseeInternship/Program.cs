@@ -38,8 +38,8 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
-    //using var scope = app.Services.GetService<IServiceScopeFactory>().CreateScope();
-    //scope.ServiceProvider.GetRequiredService<TransactionDbContext>().Database.Migrate();
+    using var scope = app.Services.GetService<IServiceScopeFactory>().CreateScope();
+    scope.ServiceProvider.GetRequiredService<TransactionDbContext>().Database.Migrate();
 }
 
 app.UseAuthorization();

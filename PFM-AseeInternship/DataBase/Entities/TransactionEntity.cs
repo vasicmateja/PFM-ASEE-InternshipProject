@@ -14,7 +14,6 @@ namespace PFM_AseeInternship.DataBase.Entities
         public string Currency { get; set; }
         public string MccCode { get; set; }
         public KindEnum Kind { get; set; }
-
         public string CatCode { get; set; }
 
         //[NotMapped]public List<SplitCategory> Splits { get; set; }
