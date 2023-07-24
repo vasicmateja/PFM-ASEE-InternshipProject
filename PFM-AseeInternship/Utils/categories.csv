@@ -1,0 +1,88 @@
+code,parent-code,name
+A,,Misc Expenses
+B,,Auto & Transport
+C,,Bills & Utilities
+D,,Education
+E,,Entertainment
+F,,Fees & Charges
+G,,Financial
+H,,Gifts & Donations
+I,,Health & Fitness
+J,,Home
+K,,Income
+L,,Kids
+M,,Loans
+N,,Personal Care
+O,,Pets
+P,,Shopping
+R,,Taxes
+S,,Transfer
+T,,Travel
+U,,Food & Dining
+Z,,Split
+0,A,Other
+1,B,Other
+2,B,Auto Insurance
+3,B,Auto Leasing
+4,B,Gas & Fuel
+5,B,Parking
+7,B,Service & Parts
+9,C,Home Phone
+10,C,Internet
+11,C,Mobile Phone
+12,C,Television
+13,C,Utilities
+15,D,Books & Supplies
+17,D,Tuition
+20,E,Arts
+21,E,Movies & DVDs
+22,E,Music
+23,E,Newspapers & Magazines
+25,F,ATM Fee
+26,F,Bank Fee
+28,F,Late Fee
+33,G,Life Insurance
+38,U,Groceries
+39,U,Restaurants
+41,H,Charity
+42,H,Gift
+44,I,Dentist
+45,I,Doctor
+46,I,Eyecare
+47,I,Gym
+48,I,Health Insurance
+49,I,Pharmacy
+50,I,Sports
+53,J,Home Improvement
+54,J,Home Insurance
+55,J,Home Services
+56,J,Home Supplies
+58,J,Mortgage & Rent
+59,K,Other
+60,K,Bonus
+61,K,Interest Income
+62,K,Paycheck
+64,K,Rental Income
+67,L,Allowance
+68,L,Baby Supplies
+71,L,Kids Activities
+72,L,Toys
+74,M,Loan Fees and Charges
+77,M,Loan Payment
+80,N,Hair
+82,N,Spa & Massage
+83,O,Other
+84,O,Pet Food & Supplies
+85,O,Pet Grooming
+86,O,Veterinary
+88,P,Books
+89,P,Clothing
+90,P,Electronics & Software
+92,P,Sporting Goods
+96,R,Property Tax
+98,R,Income Tax
+100,S,Credit Card Payment
+103,T,Air Travel
+104,T,Hotel
+105,T,Rental Car & Taxi
+106,T,Vacation

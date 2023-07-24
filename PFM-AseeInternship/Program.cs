@@ -14,6 +14,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<TransactionService, TransactionServiceImplementation>();
 builder.Services.AddScoped<TransactionRepository, TransactionRepositoryImp>();
 
+builder.Services.AddScoped<CategoryService, CategoryServiceImplementation>();
+builder.Services.AddScoped<CategoryRepository, CategoryRepositoryImp>();
+
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
 builder.Services.AddControllers().AddJsonOptions(options =>
@@ -31,6 +34,11 @@ builder.Services.AddDbContext<TransactionDbContext>(opt =>
     opt.UseNpgsql(CreateConnectionString(builder.Configuration));
 });
 
+builder.Services.AddDbContext<CategoryDbContext>(opt =>
+{
+    opt.UseNpgsql(CreateConnectionString(builder.Configuration));
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -40,6 +48,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
     using var scope = app.Services.GetService<IServiceScopeFactory>().CreateScope();
     scope.ServiceProvider.GetRequiredService<TransactionDbContext>().Database.Migrate();
+    scope.ServiceProvider.GetRequiredService<CategoryDbContext>().Database.Migrate();
 }
 
 app.UseAuthorization();
@@ -68,3 +77,5 @@ string CreateConnectionString(IConfiguration configuration)
 
     return connBuilder.ConnectionString;
 }
+
+
