@@ -11,7 +11,6 @@
         public string Currency { get; set; }
         public string MccCode { get; set; } //TODO: Pitaj Nikoluu
         public KindEnum Kind { get; set; }
-
         public string CatCode { get; set; }
         public List<SplitCategory> Splits { get; set; }
     }

@@ -14,7 +14,7 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
             _db = db;
         }
 
-        public async Task<TransacitonPageSortedList<TransactionEntity>> List(string transactionKind, string? startDate, string? endDate, int page = 1, int pageSize = 10, string? sortBy = null, SortOrder sortOrder = SortOrder.asc)
+        public async Task<PageSortedList<TransactionEntity>> List(string transactionKind, string? startDate, string? endDate, int page = 1, int pageSize = 10, string? sortBy = null, SortOrder sortOrder = SortOrder.asc)
         {
           
 
@@ -56,7 +56,7 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
 
             var transactions = await query.ToListAsync();
 
-            return new TransacitonPageSortedList<TransactionEntity>
+            return new PageSortedList<TransactionEntity>
             {
                 TotalPages = totalPages,
                 TotalCount = totalCount,

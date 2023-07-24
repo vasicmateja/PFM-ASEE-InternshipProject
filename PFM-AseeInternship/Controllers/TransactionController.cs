@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using PFM_AseeInternship.Models;
 using PFM_AseeInternship.Services;
 
 namespace PFM_AseeInternship.Controllers

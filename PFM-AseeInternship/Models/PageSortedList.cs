@@ -1,6 +1,6 @@
 ﻿namespace PFM_AseeInternship.Models
 {
-    public class TransacitonPageSortedList<T>
+    public class PageSortedList<T>
     {
         public int TotalCount { get; set; }
         public int PageSize { get; set; }

@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
 using PFM_AseeInternship.DataBase.Repositories;
 using PFM_AseeInternship.Models;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace PFM_AseeInternship.Services.Implementations
 {
@@ -15,11 +14,11 @@ namespace PFM_AseeInternship.Services.Implementations
             _mapper = mapper;
     }
 
-        public async Task<TransacitonPageSortedList<Models.Transaction>> GetTransactions(string transactionKind, string? startDate, string? endDate, int page = 1, int pageSize = 10, string? sortBy = null, Models.Transaction.SortOrder sortOrder = Models.Transaction.SortOrder.asc)
+        public async Task<PageSortedList<Models.Transaction>> GetTransactions(string transactionKind, string? startDate, string? endDate, int page = 1, int pageSize = 10, string? sortBy = null, Models.SortOrder sortOrder = Models.SortOrder.asc)
         {
             var result = await _transactionRepository.List(transactionKind, startDate, endDate, page, pageSize, sortBy, sortOrder);  
 
-            return _mapper.Map<TransacitonPageSortedList<Models.Transaction>>(result);
+            return _mapper.Map<PageSortedList<Models.Transaction>>(result);
         }
 
         public async void ImportTransactions()

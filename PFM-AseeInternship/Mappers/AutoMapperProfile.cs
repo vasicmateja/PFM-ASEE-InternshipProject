@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using PFM_AseeInternship.DataBase.Entities;
 using PFM_AseeInternship.Models;
+using PFM_AseeInternship.Models.CategoryPack;
 
 namespace PFM_AseeInternship.Mappers
 {
@@ -11,7 +12,17 @@ namespace PFM_AseeInternship.Mappers
 
             CreateMap<Transaction, TransactionEntity>().ForMember(transaction => transaction.Id, entity => entity.MapFrom(x => x.TransactionId));
 
-            CreateMap<TransacitonPageSortedList<TransactionEntity>, TransacitonPageSortedList<Transaction>>();
+            CreateMap<PageSortedList<TransactionEntity>, PageSortedList<Transaction>>();
+
+
+
+
+
+            CreateMap<CategoryEntity, Category>().ForMember(category => category.CategotyId, entity => entity.MapFrom(x => x.CategoryId));
+
+            CreateMap<Category, CategoryEntity>().ForMember(category => category.CategoryId, entity => entity.MapFrom(x => x.CategotyId));
+
+            CreateMap<CategoriesPage<CategoryEntity>, CategoriesPage<Category>>();
 
         }
     }
