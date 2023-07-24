@@ -86,7 +86,6 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
 
                     if (a == 0)
                     {
-                        //OVDE MOZEMO HANDLOVATI PROVERU ZA FAJL
                         continue;
                     }
                     
@@ -104,18 +103,17 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
                     }
                     else
                     {
-                        //TODO GRESKA 
+                        transaction.Direction = Directions.unknown;
                     }
-
-                    if (int.TryParse(values[4], out int amount))
+                   
+                    if (double.TryParse(values[4], out double amount))
                     {
-                        transaction.Amount = amount * 1.0;
+                        transaction.Amount = amount ;
                     }
                     else
                     {
-                        // Greska pri parsiranju amount
+                        transaction.Amount = 0;
                     }
-
                     transaction.Description = values[5];
                     transaction.Currency = values[6];
                     transaction.MccCode = values[7];
@@ -125,15 +123,14 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
                     }
                     else
                     {
-                        // Neispravna vrednost za KindEnum
-                        // Postupiti u skladu sa potrebama aplikacije (npr. postaviti podrazumevanu vrednost, baciti izuzetak, itd.)
+                        transaction.Kind = KindEnum.unknown;
                     }
 
 
                     var query = _db.Transactions.Add(transaction);
                     
                 }
-                // _db.SaveChangesAsync();
+    
             }
             
         }

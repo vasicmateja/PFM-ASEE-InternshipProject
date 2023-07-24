@@ -2,6 +2,6 @@
 {
     public enum Directions
     {
-        c, d
+        c, d, unknown
     }
 }

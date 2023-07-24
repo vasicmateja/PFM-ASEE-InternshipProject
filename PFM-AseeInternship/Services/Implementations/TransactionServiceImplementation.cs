@@ -15,7 +15,7 @@ namespace PFM_AseeInternship.Services.Implementations
             _mapper = mapper;
     }
 
-        public async Task<TransacitonPageSortedList<Models.Transaction>> GetTransactions(string transactionKind, string? startDate, string? endDate, int page = 1, int pageSize = 10, string? sortBy = null, Models.SortOrder sortOrder = Models.SortOrder.asc)
+        public async Task<TransacitonPageSortedList<Models.Transaction>> GetTransactions(string transactionKind, string? startDate, string? endDate, int page = 1, int pageSize = 10, string? sortBy = null, Models.Transaction.SortOrder sortOrder = Models.Transaction.SortOrder.asc)
         {
             var result = await _transactionRepository.List(transactionKind, startDate, endDate, page, pageSize, sortBy, sortOrder);  
 

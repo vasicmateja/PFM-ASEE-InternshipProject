@@ -2,6 +2,6 @@
 {
     public enum SortOrder
     {
-        asc,desc
+        asc, desc
     }
 }
