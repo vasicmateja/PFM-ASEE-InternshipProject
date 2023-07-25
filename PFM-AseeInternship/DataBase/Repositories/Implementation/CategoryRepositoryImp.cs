@@ -11,9 +11,9 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
     public class CategoryRepositoryImp : CategoryRepository
     {
 
-        private readonly CategoryDbContext _db;
+        private readonly TransactionDbContext _db;
 
-        public CategoryRepositoryImp(CategoryDbContext db)
+        public CategoryRepositoryImp(TransactionDbContext db)
         {
             _db = db;
         }
@@ -39,17 +39,18 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
 
                     foreach (var category in categories)
                     {
-                        int id = category.CategoryId;
+                        string id = category.CategoryId;
                         // Provera da li transakcija već postoji u bazi
-                        var existingCategory = _db.Categories.FirstOrDefault(t => t.CategoryId == id);
+                        /*
+                        var existingCategory = _db.Categories.FirstOrDefault(t => t.CategoryId.Equals(id));
                         if (existingCategory != null)
                             continue; // Preskočite upis, transakcija već postoji
 
+                        */
 
-                        category.Name = category.Name;
+                        
                         category.ParentCode = category.ParentCode;
-
-
+                        category.Name = category.Name;
 
                         // Dodajte transakciju u bazu
                         _db.Categories.Add(category);
@@ -70,7 +71,7 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
             var query = _db.Categories.AsQueryable();
             var totalCount = query.Count();
 
-            query = query.Where(x => x.ParentCode == parentId);
+            query = query.Where(x => x.ParentCode.Equals(parentId));
 
 
             var categories = await query.ToListAsync();

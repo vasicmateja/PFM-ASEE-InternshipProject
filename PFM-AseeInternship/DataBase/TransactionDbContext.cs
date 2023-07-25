@@ -7,6 +7,7 @@ namespace PFM_AseeInternship.DataBase
     public class TransactionDbContext : DbContext
     {
         public DbSet<TransactionEntity> Transactions { get; set; }
+        public DbSet<CategoryEntity> Categories { get; set; }
         public TransactionDbContext(DbContextOptions options): base(options)
         { 
         }
@@ -21,6 +22,8 @@ namespace PFM_AseeInternship.DataBase
 
             modelBuilder.ApplyConfiguration(
                 new TransactionEntityTypeConfiguration());
+
+            modelBuilder.ApplyConfiguration(new CategoryEntityTypeConfiguration());
             
         }
     }

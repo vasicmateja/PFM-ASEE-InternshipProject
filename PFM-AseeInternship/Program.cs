@@ -14,8 +14,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<TransactionService, TransactionServiceImplementation>();
 builder.Services.AddScoped<TransactionRepository, TransactionRepositoryImp>();
 
-//builder.Services.AddScoped<CategoryService, CategoryServiceImplementation>();
-//builder.Services.AddScoped<CategoryRepository, CategoryRepositoryImp>();
+builder.Services.AddScoped<CategoryService, CategoryServiceImplementation>();
+builder.Services.AddScoped<CategoryRepository, CategoryRepositoryImp>();
 
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
@@ -49,8 +49,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
     using var scope = app.Services.GetService<IServiceScopeFactory>().CreateScope();
-    scope.ServiceProvider.GetRequiredService<TransactionDbContext>().Database.Migrate();
-   //cope.ServiceProvider.GetRequiredService<CategoryDbContext>().Database.Migrate();
+    //scope.ServiceProvider.GetRequiredService<TransactionDbContext>().Database.Migrate();
 }
 
 app.UseAuthorization();

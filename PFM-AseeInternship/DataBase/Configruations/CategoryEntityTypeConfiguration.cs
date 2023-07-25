@@ -10,7 +10,7 @@ namespace PFM_AseeInternship.DataBase.Configruations
 
         public void Configure(EntityTypeBuilder<CategoryEntity> builder)
         {
-            builder.ToTable("Categories ");
+            builder.ToTable("Categories");
 
             builder.HasKey(x => x.CategoryId);
 
