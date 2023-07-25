@@ -8,6 +8,6 @@ namespace PFM_AseeInternship.DataBase.Repositories
     {
         Task<CategoriesPage<CategoryEntity>> ListCategories(string parentId);
 
-        void ImportCategories();
+        Task ImportCategories();
     }
 }
