@@ -19,11 +19,21 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
 
         public async Task<PageSortedList<TransactionEntity>> List(string transactionKind, string? startDate, string? endDate, int page = 1, int pageSize = 10, string? sortBy = null, SortOrder sortOrder = SortOrder.asc)
         {
-          
+            // Convert the transactionKind string to the corresponding enum value
+            if (!Enum.TryParse(transactionKind, out KindEnum kindFilter))
+            {
+                throw new ArgumentException("Invalid transactionKind value.");
+            }
 
             var query = _db.Transactions.AsQueryable();
+
+            // Apply filtering based on the transactionKind
+            query = query.Where(x => x.Kind == kindFilter);
+            
+
+
             var totalCount = query.Count();
-            var totalPages = (int)Math.Ceiling(totalCount / pageSize * 1.0);
+            var totalPages = (int)Math.Ceiling(totalCount / (double)pageSize);
 
             if (!String.IsNullOrEmpty(sortBy))
             {
@@ -51,10 +61,12 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
                         query = sortOrder == SortOrder.asc ? query.OrderBy(x => x.Kind) : query.OrderByDescending(x => x.Kind);
                         break;
                 }
-
-            }else {
-                    query = query.OrderBy(x => x.BeneficiaryName);
             }
+            else
+            {
+                query = query.OrderBy(x => x.BeneficiaryName);
+            }
+
             query = query.Skip((page - 1) * pageSize).Take(pageSize);
 
             var transactions = await query.ToListAsync();
@@ -64,15 +76,14 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
                 TotalPages = totalPages,
                 TotalCount = totalCount,
                 Page = page,
-                PageSize = pageSize,    
+                PageSize = pageSize,
                 SortBy = sortBy,
                 SortOrder = sortOrder,
                 Items = transactions
-
             };
         }
-
-        public async Task ImportTransactions()
+    
+    public async Task ImportTransactions()
         {
             try
             {
