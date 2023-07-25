@@ -1,7 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using CsvHelper.Configuration;
+using CsvHelper;
+using Microsoft.EntityFrameworkCore;
 using Npgsql;
 using PFM_AseeInternship.DataBase.Entities;
 using PFM_AseeInternship.Models;
+using System.Globalization;
 
 namespace PFM_AseeInternship.DataBase.Repositories.Implementation
 {
@@ -69,70 +72,58 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
             };
         }
 
-        public async void ImportTransactions()
+        public async Task ImportTransactions()
         {
-
-            TransactionEntity transaction = new TransactionEntity();
-
-            using (var reader = new StreamReader("C:\\Users\\vasic\\source\\repos\\PFM-AseeInternship\\PFM-AseeInternship\\Utils\\transactions.csv"))
+            try
             {
-                int a = -1;
-
-                while (!reader.EndOfStream)
+                var csvConfig = new CsvConfiguration(CultureInfo.InvariantCulture)
                 {
-                    a++;
-                    var line = reader.ReadLine();
-                    var values = line.Split(',');
+                    HasHeaderRecord = true,
+                    Delimiter = ",",
+                    HeaderValidated = null, // Ignore header validation
+                    MissingFieldFound = null // Ignore missing fields
+                };
 
-                    if (a == 0)
-                    {
-                        continue;
-                    }
-                    
+                using (var reader = new StreamReader("C:\\Users\\vasic\\source\\repos\\PFM-AseeInternship\\PFM-AseeInternship\\Utils\\transactions.csv"))
+                using (var csv = new CsvReader(reader, csvConfig))
+                {
+                    var transactions = csv.GetRecords<TransactionEntity>().ToList();
 
-                    transaction.Id = int.Parse(values[0]);
-                    transaction.BeneficiaryName = values[1];
-                    transaction.Date = values[2];
-                    if (values[3].Equals("c"))
+                    foreach (var transaction in transactions)
                     {
-                        transaction.Direction = Directions.c;
-                    }
-                    else if (values[3].Equals("d"))
-                    {
-                        transaction.Direction = Directions.d;
-                    }
-                    else
-                    {
-                        transaction.Direction = Directions.unknown;
-                    }
-                   
-                    if (double.TryParse(values[4], out double amount))
-                    {
-                        transaction.Amount = amount ;
-                    }
-                    else
-                    {
-                        transaction.Amount = 0;
-                    }
-                    transaction.Description = values[5];
-                    transaction.Currency = values[6];
-                    transaction.MccCode = values[7];
-                    if (Enum.IsDefined(typeof(KindEnum), values[8]))
-                    {
-                        transaction.Kind = Enum.Parse<KindEnum>(values[8]);
-                    }
-                    else
-                    {
-                        transaction.Kind = KindEnum.unknown;
+                        int id = transaction.Id;
+                        // Provera da li transakcija već postoji u bazi
+                        var existingTransaction =  _db.Transactions.FirstOrDefault(t => t.Id == id);
+                        if (existingTransaction != null)
+                            continue; // Preskočite upis, transakcija već postoji
+
+                        if (transaction.Direction.Equals("c"))
+                            transaction.Direction = Directions.c;
+                        else if (transaction.Direction.Equals("d"))
+                            transaction.Direction = Directions.d;
+                        else
+                            transaction.Direction = Directions.unknown;
+
+                        // Koristite Convert.ToDouble za pretvaranje Amount u double
+                        transaction.Amount = Convert.ToDouble(transaction.Amount);
+
+                        transaction.CatCode = "Proba";
+
+                        // Dodajte transakciju u bazu
+                        _db.Transactions.Add(transaction);
+                        _db.SaveChanges();
                     }
 
-
-                    var query = _db.Transactions.Add(transaction);
-                    
+                     
                 }
-    
             }
-            
+            catch (Exception ex)
+            {
+                Console.WriteLine("Greška pri ubacivanju transakcija u bazu: " + ex.Message);
+            }
         }
+
     }
 }
+
+

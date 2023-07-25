@@ -14,8 +14,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<TransactionService, TransactionServiceImplementation>();
 builder.Services.AddScoped<TransactionRepository, TransactionRepositoryImp>();
 
-builder.Services.AddScoped<CategoryService, CategoryServiceImplementation>();
-builder.Services.AddScoped<CategoryRepository, CategoryRepositoryImp>();
+//builder.Services.AddScoped<CategoryService, CategoryServiceImplementation>();
+//builder.Services.AddScoped<CategoryRepository, CategoryRepositoryImp>();
 
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
@@ -34,10 +34,12 @@ builder.Services.AddDbContext<TransactionDbContext>(opt =>
     opt.UseNpgsql(CreateConnectionString(builder.Configuration));
 });
 
+/*
 builder.Services.AddDbContext<CategoryDbContext>(opt =>
 {
     opt.UseNpgsql(CreateConnectionString(builder.Configuration));
 });
+*/
 
 var app = builder.Build();
 
@@ -48,7 +50,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
     using var scope = app.Services.GetService<IServiceScopeFactory>().CreateScope();
     scope.ServiceProvider.GetRequiredService<TransactionDbContext>().Database.Migrate();
-    scope.ServiceProvider.GetRequiredService<CategoryDbContext>().Database.Migrate();
+   //cope.ServiceProvider.GetRequiredService<CategoryDbContext>().Database.Migrate();
 }
 
 app.UseAuthorization();
@@ -69,7 +71,7 @@ string CreateConnectionString(IConfiguration configuration)
     {
         Host = host,
         Port = int.Parse(port),
-        Username = username,    
+        Username = username,
         Password = password,
         Database = databaseName,
         Pooling = true
@@ -78,4 +80,26 @@ string CreateConnectionString(IConfiguration configuration)
     return connBuilder.ConnectionString;
 }
 
+/*
+string CreateConnectionString2(IConfiguration configuration)
+{
+    var username = Environment.GetEnvironmentVariable("DATABASE_USERNAME");
+    var password = Environment.GetEnvironmentVariable("DATABASE_PASSWORD");
+    var databaseName = Environment.GetEnvironmentVariable("DATABASE_NAME") ?? "configurations";
+    var host = Environment.GetEnvironmentVariable("DATABASE_HOST") ?? "localhost";
+    var port = (Environment.GetEnvironmentVariable("DATABASE_PORT") ?? "5431");
 
+    var connBuilder = new NpgsqlConnectionStringBuilder
+    {
+        Host = host,
+        Port = int.Parse(port),
+        Username = username,
+        Password = password,
+        Database = databaseName,
+        Pooling = true
+    };
+
+    return connBuilder.ConnectionString;
+}
+
+*/
