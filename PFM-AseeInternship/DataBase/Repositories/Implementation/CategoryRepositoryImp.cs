@@ -41,20 +41,23 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
                     {
                         string id = category.CategoryId;
                         // Provera da li transakcija već postoji u bazi
-                        /*
-                        var existingCategory = _db.Categories.FirstOrDefault(t => t.CategoryId.Equals(id));
+                        var existingCategory = _db.Categories.FirstOrDefault(t => t.CategoryId.Equals(id.ToUpper()));
                         if (existingCategory != null)
-                            continue; // Preskočite upis, transakcija već postoji
+                        {
 
-                        */
+                            existingCategory.ParentCode = category.ParentCode;
+                            existingCategory.Name = category.Name;
 
-                        
-                        category.ParentCode = category.ParentCode;
-                        category.Name = category.Name;
 
-                        // Dodajte transakciju u bazu
-                        _db.Categories.Add(category);
-                        _db.SaveChanges();
+                            // Sačuvajte promene u bazi podataka
+                            _db.SaveChanges();
+                        }
+                        else
+                        {
+                            // Dodajte novu kategoriju u bazu
+                            _db.Categories.Add(category);
+                            _db.SaveChanges();
+                        }
                     }
                 }
             }
@@ -72,8 +75,9 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
             var totalCount = query.Count();
 
 
-            
-            query = query.Where(x => x.ParentCode.Equals(parentId));
+
+            //query = query.Where(x => x.ParentCode.Equals(parentId, StringComparison.OrdinalIgnoreCase));
+            query = query.Where(x => x.ParentCode.Equals(parentId.ToUpper()));
 
 
             var categories = await query.ToListAsync();

@@ -103,29 +103,30 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
                     foreach (var transaction in transactions)
                     {
                         int id = transaction.Id;
+
                         // Provera da li transakcija već postoji u bazi
-                        var existingTransaction =  _db.Transactions.FirstOrDefault(t => t.Id == id);
+                        var existingTransaction = _db.Transactions.FirstOrDefault(t => t.Id == id);
                         if (existingTransaction != null)
-                            continue; // Preskočite upis, transakcija već postoji
+                        {
+                            // Ažurirajte potrebne vrednosti postojeće transakcije
+                            existingTransaction.Direction = GetDirectionFromString(transaction.Direction);
+                            existingTransaction.Amount = Convert.ToDouble(transaction.Amount);
+                            existingTransaction.CatCode = ""; // Možete promeniti vrednost prema potrebi
 
-                        if (transaction.Direction.Equals("c"))
-                            transaction.Direction = Directions.c;
-                        else if (transaction.Direction.Equals("d"))
-                            transaction.Direction = Directions.d;
+                            // Sačuvajte promene u bazi podataka
+                            _db.SaveChanges();
+                        }
                         else
-                            transaction.Direction = Directions.unknown;
+                        {
+                            // Dodajte novu transakciju u bazu
+                            transaction.Direction = GetDirectionFromString(transaction.Direction);
+                            transaction.Amount = Convert.ToDouble(transaction.Amount);
+                            transaction.CatCode = ""; // Možete promeniti vrednost prema potrebi
 
-                        // Koristite Convert.ToDouble za pretvaranje Amount u double
-                        transaction.Amount = Convert.ToDouble(transaction.Amount);
-
-                        transaction.CatCode = "Proba";
-
-                        // Dodajte transakciju u bazu
-                        _db.Transactions.Add(transaction);
-                        _db.SaveChanges();
+                            _db.Transactions.Add(transaction);
+                            _db.SaveChanges();
+                        }
                     }
-
-                     
                 }
             }
             catch (Exception ex)
@@ -137,6 +138,26 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
         public Task CategorizeTransaction(int transactionId)
         {
             throw new NotImplementedException();
+        }
+
+
+
+        private Directions GetDirectionFromString(Directions directionEnum)
+        {
+
+            string direction = directionEnum.ToString().ToLower();   
+            if (direction.Equals("c"))
+            {
+                return Directions.c;
+            }
+            else if (direction.Equals("d"))
+            {
+                return Directions.d;
+            }
+            else
+            {
+                return Directions.unknown;
+            }
         }
     }
 }
