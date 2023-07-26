@@ -147,16 +147,18 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
 
             string[] description = transaction.Description.Split();
 
-            var rulesMapping = new Dictionary<string, string>
+            var rulesMapping = new Dictionary<string, string>            
             {
-                { "salary", "income" },
-                {"supermaket shopping","shopping" },
+                {"salary", "income"},
+                {"supermaket shopping","shopping"},
                 {"phone bill", "Bills & Utilities"},
                 {"mobile phone bill", "Bills & Utilities"},
                 {"internet bill", "Bills & Utilities"}
 
             };
-
+            /*
+             * Rulove za mapiranje bih mozda najpre postavljao unutar nove tabele ili strukute koja bi pamtila i u koju bi učitavali na određeni način tako da se lako menja
+            */
 
             if (transaction.Description.Length < 0)
             {
