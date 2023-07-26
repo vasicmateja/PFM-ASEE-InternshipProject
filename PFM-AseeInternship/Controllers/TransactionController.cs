@@ -43,7 +43,7 @@ namespace PFM_AseeInternship.Controllers
             return Ok();
         }
 
-        [HttpPost("{id}/categorize")]
+        [HttpPost("{transactionId}/categorize")]
         public IActionResult categorizeTransaction([FromRoute] int transactionId)
         {
             _transactionService.CategorizeTransaction(transactionId);
@@ -53,7 +53,9 @@ namespace PFM_AseeInternship.Controllers
         [HttpPost("autoCategorize")]
         public IActionResult autoCategorizeTransactions()
         {
+            _transactionService.AutoCategorize();
             return Ok();
+            
         }
 
 

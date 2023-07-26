@@ -9,5 +9,7 @@ namespace PFM_AseeInternship.Services
         void ImportTransactions();
 
         void CategorizeTransaction(int transactionId);
+
+        void AutoCategorize();
     }
 }

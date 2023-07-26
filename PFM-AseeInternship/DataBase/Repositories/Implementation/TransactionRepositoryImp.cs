@@ -111,7 +111,7 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
                             // Ažurirajte potrebne vrednosti postojeće transakcije
                             existingTransaction.Direction = GetDirectionFromString(transaction.Direction);
                             existingTransaction.Amount = Convert.ToDouble(transaction.Amount);
-                            existingTransaction.CatCode = ""; // Možete promeniti vrednost prema potrebi
+                            existingTransaction.CatCode = ""; 
 
                             // Sačuvajte promene u bazi podataka
                             _db.SaveChanges();
@@ -121,7 +121,7 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
                             // Dodajte novu transakciju u bazu
                             transaction.Direction = GetDirectionFromString(transaction.Direction);
                             transaction.Amount = Convert.ToDouble(transaction.Amount);
-                            transaction.CatCode = ""; // Možete promeniti vrednost prema potrebi
+                            transaction.CatCode = ""; 
 
                             _db.Transactions.Add(transaction);
                             _db.SaveChanges();
@@ -135,9 +135,26 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
             }
         }
 
-        public Task CategorizeTransaction(int transactionId)
+        public async Task CategorizeTransaction(int transactionId)
         {
-            throw new NotImplementedException();
+          
+            var transaction =  _db.Transactions.FirstOrDefault(t => t.Id == transactionId);
+
+            if(transaction ==null)
+            {
+                throw new Exception("Transakcija sa id-em" + transactionId + "ne postoji");
+            }
+
+            string description = transaction.Description;
+
+            List <CategoryEntity> categories = _db.Categories.ToList();
+
+            if (description.ToLower().Equals("salary"))
+            {
+                transaction.CatCode = "K";
+                 _db.SaveChanges();
+            }         
+
         }
 
 
