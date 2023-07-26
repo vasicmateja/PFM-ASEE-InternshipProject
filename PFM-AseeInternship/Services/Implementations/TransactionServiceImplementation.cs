@@ -16,7 +16,7 @@ namespace PFM_AseeInternship.Services.Implementations
 
      
 
-        public async Task<PageSortedList<Models.Transaction>> GetTransactions(string transactionKind, string? startDate, string? endDate, int page = 1, int pageSize = 10, string? sortBy = null, Models.SortOrder sortOrder = Models.SortOrder.asc)
+        public async Task<PageSortedList<Models.Transaction>> GetTransactions(string transactionKind, string? startDate, string? endDate, int page , int pageSize , string? sortBy = null, Models.SortOrder sortOrder = Models.SortOrder.asc)
         {
             var result = await _transactionRepository.List(transactionKind, startDate, endDate, page, pageSize, sortBy, sortOrder);  
 

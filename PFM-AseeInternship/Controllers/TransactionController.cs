@@ -21,8 +21,8 @@ namespace PFM_AseeInternship.Controllers
         public async Task<IActionResult> GetTransactionsAsync([FromQuery] string transactionKind, [FromQuery] string? startDate, [FromQuery] string? endDate
             , [FromQuery] int page = 1, [FromQuery] int pageSize = 10, [FromQuery] string? sortBy    = null, [FromQuery] SortOrder sortOrder = SortOrder.asc) 
         {
-            page = 1;
-            pageSize = 10;
+           // page = 1;
+           // pageSize = 10;
             _logger.LogInformation("Returning {page}. of transactions", page);
             var result = await _transactionService.GetTransactions(transactionKind, startDate, endDate, page, pageSize, sortBy, sortOrder);
             
