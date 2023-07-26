@@ -20,6 +20,10 @@ namespace PFM_AseeInternship.Controllers
         public async Task<IActionResult> GetCategoriesAsync([FromQuery] string parentId)
         {
             
+            if (parentId == null) {
+                return Ok(await _categoryService.GetCategories(""));
+            }
+
             var result = await _categoryService.GetCategories(parentId);
 
             return Ok(result);

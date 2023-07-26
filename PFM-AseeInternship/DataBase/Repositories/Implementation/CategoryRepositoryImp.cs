@@ -71,6 +71,8 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
             var query = _db.Categories.AsQueryable();
             var totalCount = query.Count();
 
+
+            
             query = query.Where(x => x.ParentCode.Equals(parentId));
 
 

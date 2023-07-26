@@ -11,8 +11,8 @@ using PFM_AseeInternship.DataBase;
 namespace PFM_AseeInternship.Migrations
 {
     [DbContext(typeof(TransactionDbContext))]
-    [Migration("20230725222539_initCategoryTableChange2")]
-    partial class initCategoryTableChange2
+    [Migration("20230726090004_InitDb")]
+    partial class InitDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
