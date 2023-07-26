@@ -33,7 +33,9 @@ namespace PFM_AseeInternship.Services.Implementations
             _transactionRepository.CategorizeTransaction(transactionId);
         }
 
-
-
+        public void AutoCategorize()
+        {
+            _transactionRepository.AutoCategorize();
+        }
     }
 }

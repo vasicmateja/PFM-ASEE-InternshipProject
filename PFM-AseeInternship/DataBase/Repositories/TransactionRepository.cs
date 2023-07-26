@@ -12,5 +12,7 @@ namespace PFM_AseeInternship.DataBase.Repositories
         Task ImportTransactions();
 
         Task CategorizeTransaction(int transactionId);
+
+        Task AutoCategorize();
     }
 }

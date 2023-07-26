@@ -145,15 +145,64 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
                 throw new Exception("Transakcija sa id-em" + transactionId + "ne postoji");
             }
 
-            string description = transaction.Description;
+            string[] description = transaction.Description.Split();
 
-            List <CategoryEntity> categories = _db.Categories.ToList();
-
-            if (description.ToLower().Equals("salary"))
+            var rulesMapping = new Dictionary<string, string>
             {
-                transaction.CatCode = "K";
-                 _db.SaveChanges();
-            }         
+                { "salary", "income" },
+                {"supermaket shopping","shopping" },
+                {"phone bill", "Bills & Utilities"},
+                {"mobile phone bill", "Bills & Utilities"},
+                {"internet bill", "Bills & Utilities"}
+
+            };
+
+
+            if (transaction.Description.Length < 0)
+            {
+                return;
+            }
+            else if (rulesMapping.TryGetValue(transaction.Description.ToLower(),out string catCode))
+            {
+                transaction.CatCode = _db.Categories.FirstOrDefault(c => c.Name.ToLower().Equals(catCode)).CategoryId;
+            }
+            else
+            {
+                List<CategoryEntity> categories = _db.Categories.ToList();
+
+                bool flag = false;
+
+                //Ovde bi bilo potrebno da osmisliti pravila npr kada je description Salary onda da bude income i slicno
+
+                foreach (var category in categories)
+                {
+                    flag = false;
+                    foreach (var word in description)
+                    {
+                        if (category.Name.Contains(word))
+                        {
+                            transaction.CatCode = category.CategoryId;
+                            flag = true;
+                        }
+                    }
+
+                    if (flag) { break; }
+                }
+            }
+
+            _db.SaveChanges();
+        }
+
+
+        public async Task AutoCategorize()
+        {
+            List<TransactionEntity> transactions = _db.Transactions.ToList();
+
+            foreach (TransactionEntity transaction in transactions)
+            {
+                CategorizeTransaction(transaction.Id);
+            }
+            _db.SaveChanges();
 
         }
 
@@ -162,7 +211,7 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
         private Directions GetDirectionFromString(Directions directionEnum)
         {
 
-            string direction = directionEnum.ToString().ToLower();   
+            string direction = directionEnum.ToString().ToLower();
             if (direction.Equals("c"))
             {
                 return Directions.c;
