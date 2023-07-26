@@ -7,5 +7,7 @@ namespace PFM_AseeInternship.Services
         Task<PageSortedList<Transaction>> GetTransactions(string transactionKind, string? startDate, string? endDate, int page = 1, int pageSize = 10, string? sortBy = null, SortOrder sortOrder = SortOrder.asc);
 
         void ImportTransactions();
+
+        void CategorizeTransaction(int transactionId);
     }
 }

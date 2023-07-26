@@ -33,7 +33,7 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
 
 
             var totalCount = query.Count();
-            var totalPages = (int)Math.Ceiling(totalCount / (double)pageSize);
+            var totalPages = (int)Math.Ceiling(totalCount * 1.0 / pageSize);
 
             if (!String.IsNullOrEmpty(sortBy))
             {
@@ -134,6 +134,10 @@ namespace PFM_AseeInternship.DataBase.Repositories.Implementation
             }
         }
 
+        public Task CategorizeTransaction(int transactionId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
 

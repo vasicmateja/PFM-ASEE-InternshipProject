@@ -10,5 +10,7 @@ namespace PFM_AseeInternship.DataBase.Repositories
                                                                             , int pageSize = 10, string? sortBy = null, SortOrder sortOrder = SortOrder.asc);
 
         Task ImportTransactions();
+
+        Task CategorizeTransaction(int transactionId);
     }
 }

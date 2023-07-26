@@ -8,9 +8,8 @@ namespace PFM_AseeInternship.DataBase
     {
         public DbSet<TransactionEntity> Transactions { get; set; }
         public DbSet<CategoryEntity> Categories { get; set; }
-        public TransactionDbContext(DbContextOptions options): base(options)
-        { 
-        }
+
+        public TransactionDbContext(DbContextOptions options): base(options){}
 
         public TransactionDbContext() {}
 
@@ -20,8 +19,7 @@ namespace PFM_AseeInternship.DataBase
             //modelBuilder.Entity<TransactionEntity>().Ignore(t => t.Splits);
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.ApplyConfiguration(
-                new TransactionEntityTypeConfiguration());
+            modelBuilder.ApplyConfiguration(new TransactionEntityTypeConfiguration());
 
             modelBuilder.ApplyConfiguration(new CategoryEntityTypeConfiguration());
             

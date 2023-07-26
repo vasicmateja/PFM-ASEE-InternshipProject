@@ -44,8 +44,9 @@ namespace PFM_AseeInternship.Controllers
         }
 
         [HttpPost("{id}/categorize")]
-        public IActionResult categorizeTransaction()
+        public IActionResult categorizeTransaction([FromRoute] int transactionId)
         {
+            _transactionService.CategorizeTransaction(transactionId);
             return Ok();
         }
 
